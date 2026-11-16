@@ -20,10 +20,23 @@ Construí un esquema estrella con **una fila por línea de pedido**. La vista de
 flowchart LR
     C["dim_cliente<br/>600 clientes"] -->|cliente_id| F["fact_detalle_pedidos<br/>61.647 líneas de pedido"]
     P["dim_producto<br/>180 productos"] -->|producto_id| F
-    D["dim_fecha<br/>1.004 fechas"] -->|fecha = fecha_pedido| F
+    D["dim_fecha<br/>fecha del pedido · 1.004 fechas"] -->|fecha = fecha_pedido| F
 ```
 
-Al unir las tres dimensiones, comprobé que se conservaron las **61.647 líneas únicas**, todas con correspondencia. El importe neto asociado a pedidos entregados coincidió con la auditoría: **CLP 4.434.202.034**. Es un importe registrado en pedidos entregados. El margen usa el costo de producto registrado y se interpreta como una estimación bruta.
+Al unir las tres dimensiones, comprobé que se conservaron las **61.647 líneas únicas**, todas con correspondencia. El importe neto registrado en pedidos entregados coincidió con el obtenido en la auditoría y alcanzó **CLP 4.434.202.034**.
+
+## Hito 3 · Desempeño comercial, concentración y margen bruto estimado
+
+Apliqué el modelo dimensional para analizar la evolución mensual de los pedidos, la actividad de la cartera y el desempeño del catálogo. Con funciones de ventana en SQL calculé variaciones mensuales, promedios móviles y participaciones acumuladas. Luego usé la clasificación ABC para comparar el aporte de cada grupo al importe neto y al margen bruto estimado.
+
+- [Notebook 03 · Desempeño comercial](notebooks/03_desempeno_comercial.ipynb)
+- [Notebook 04 · Concentración comercial y rentabilidad bruta estimada](notebooks/04_concentracion_rentabilidad.ipynb)
+
+Entre enero de 2024 y septiembre de 2026, **diciembre de 2025** registró el mayor importe neto mensual, con **CLP 202.353.312** y **695 pedidos entregados**, agrupados por fecha de creación del pedido.
+
+Los **212 clientes** de mayor aporte acumularon el **80,03 %** del importe neto de pedidos entregados. Para alcanzar una proporción similar en el catálogo se necesitaron **94 productos**, que acumularon el **80,05 %**. El grupo de clientes de mayor aporte concentró el **79,83 % del margen bruto estimado total** y tuvo una **tasa de margen del 28,39 %** sobre su propio importe neto.
+
+El análisis monetario usa los importes registrados en pedidos con estado `entregado`. El margen bruto estimado se calcula restando el costo registrado del producto al importe neto.
 
 ## Cómo ejecutar los notebooks
 
@@ -50,10 +63,14 @@ Abre `notebooks/01_auditoria_datos.ipynb` en VS Code, selecciona el kernel `road
    ```
 
 2. Abre `notebooks/02_modelo_analitico.ipynb`, selecciona el kernel `road-to-bi` y pulsa **Run All** con `notebooks/` como directorio de trabajo. El notebook crea las cuatro vistas en `cordillera_analytics.sqlite`.
-3. Al final, la sección **Reproducibilidad del modelo analítico** ejecuta los cuatro scripts de `sql/` sobre una copia en memoria de la base original. La salida muestra el conteo de cada vista y el importe neto de pedidos entregados.
+3. Al final, la sección **Reproducibilidad del modelo analítico** ejecuta los cuatro scripts de `sql/` sobre una copia en memoria de la base original. La salida muestra el conteo de cada vista y el importe neto de los pedidos entregados.
 
-El repositorio incluye la base original. `cordillera_analytics.sqlite` se genera localmente siguiendo el paso anterior.
+El repositorio incluye la base original. `cordillera_analytics.sqlite` se genera localmente siguiendo el primer paso de esta sección.
 
-## Próximo hito
+### Notebooks 03 y 04 · Análisis comercial
 
-Usar el modelo para analizar la evolución comercial, la concentración y el margen bruto estimado. El informe en Power BI corresponde a una etapa posterior.
+Ejecuta primero el **Notebook 02** para crear las vistas en `data/cordillera_analytics.sqlite`. Luego abre los notebooks 03 y 04 en VS Code y ejecuta **Run All** en cada uno, con el kernel `road-to-bi` y `notebooks/` como directorio de trabajo. Ambos se conectan a la misma base analítica local. Lee primero el 03 para entender el desempeño comercial y luego el 04 para profundizar en concentración y márgenes.
+
+## Próximo hito · Power BI
+
+Incorporar el modelo dimensional a Power BI, definir las medidas y construir un informe ejecutivo para explorar el desempeño comercial, la concentración y el margen bruto estimado.
