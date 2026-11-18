@@ -118,6 +118,16 @@ Detalle por producto con importe neto, porcentaje de margen bruto estimado, marg
 
 Las capturas muestran todos los segmentos y el período enero de 2024 a septiembre de 2026. Los gráficos y tablas con desplazamiento muestran los registros visibles en cada captura.
 
-## Próximo hito · Caso de estudio final
+## Hito 5 · Informe final y recomendaciones comerciales
 
-Consolidar las conclusiones comerciales, las propuestas de análisis y las limitaciones del proyecto, junto con la documentación para reproducir y presentar el trabajo.
+Consolidé los resultados del análisis en un informe de desempeño comercial, concentración y margen bruto estimado. El documento conecta los hallazgos obtenidos con SQL y Power BI con prioridades de revisión comercial.
+
+Entre los principales resultados:
+
+- Los pedidos entregados acumularon **CLP 4.434,2 millones de importe neto**, con un **margen bruto estimado del 28,46 %**.
+- La clase A de clientes concentró el **80,03 % del importe neto**, mientras que **94 productos de los 180 registrados** explicaron el **80,05 %**.
+- La comparación del margen de cada producto con el de su categoría permitió identificar casos para revisar precios, costos y condiciones comerciales.
+
+El informe incluye recomendaciones priorizadas y explicita el alcance y las limitaciones del análisis. Los datos son ficticios y las recomendaciones no representan mejoras económicas ya obtenidas.
+
+- [Consultar el informe final en PDF](reports/Cordillera_Informe_Final.pdf)
