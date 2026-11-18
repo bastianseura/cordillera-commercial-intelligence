@@ -1,6 +1,6 @@
 # Commercial Intelligence & Profitability Analytics
 
-Proyecto de portafolio de análisis comercial con SQL sobre **Distribuidora Cordillera**, una empresa ficticia. El objetivo es construir indicadores de desempeño comercial y rentabilidad estimada a partir de datos auditados.
+Proyecto de portafolio de inteligencia comercial con **SQL, DAX y Power BI**, utilizando datos ficticios de **Distribuidora Cordillera**. El trabajo abarca auditoría de datos, modelado dimensional, análisis comercial y construcción de un informe interactivo para explorar el desempeño, la concentración y el margen bruto estimado.
 
 ## Hito 1 · Auditoría y calidad de datos
 
@@ -70,7 +70,54 @@ El repositorio incluye la base original. `cordillera_analytics.sqlite` se genera
 ### Notebooks 03 y 04 · Análisis comercial
 
 Ejecuta primero el **Notebook 02** para crear las vistas en `data/cordillera_analytics.sqlite`. Luego abre los notebooks 03 y 04 en VS Code y ejecuta **Run All** en cada uno, con el kernel `road-to-bi` y `notebooks/` como directorio de trabajo. Ambos se conectan a la misma base analítica local. Lee primero el 03 para entender el desempeño comercial y luego el 04 para profundizar en concentración y márgenes.
+## Hito 4 · Informe interactivo en Power BI
 
-## Próximo hito · Power BI
+Llevé el modelo dimensional a Power BI Desktop y construí **Cordillera Intelligence**, un informe de cuatro páginas con filtros de segmento comercial y período sincronizados.
 
-Incorporar el modelo dimensional a Power BI, definir las medidas y construir un informe ejecutivo para explorar el desempeño comercial, la concentración y el margen bruto estimado.
+Desarrollé **22 medidas DAX y cuatro columnas calculadas** para calcular indicadores comerciales, analizar la evolución temporal, mantener una clasificación ABC histórica y comparar el margen de cada producto con el de su categoría.
+
+### Criterios del análisis
+
+- Los indicadores de actividad comercial e importes consideran pedidos con estado `entregado`.
+- El margen bruto estimado corresponde al importe neto menos el costo registrado del producto. Su porcentaje se calcula sobre el importe neto.
+- Un cliente activo tiene al menos un pedido entregado en el contexto seleccionado.
+- La clasificación ABC de clientes utiliza el histórico completo y permanece fija al cambiar los filtros. La participación económica de cada clase se recalcula según el segmento y período seleccionados.
+- La brecha de margen se expresa en puntos porcentuales y compara el margen del producto con el margen agregado de su categoría.
+
+### Archivos de Power BI y DAX
+
+- [Informe de Power BI · Cordillera_BI.pbix](reports/powerbi/Cordillera_BI.pbix)
+- [Definiciones de las 22 medidas DAX](dax/01_medidas.tmdl)
+- [Cuatro columnas calculadas para el ABC histórico](dax/02_columnas_abc.tmdl)
+
+Las definiciones DAX se documentan en formato TMDL, con las tablas a las que pertenecen las medidas y columnas. El informe se desarrolló en Power BI Desktop sobre Windows 11 mediante Parallels en Mac.
+
+### Resumen ejecutivo
+
+Indicadores generales, evolución mensual con promedio móvil de tres meses e importe neto por segmento comercial.
+
+![Resumen ejecutivo de Cordillera Intelligence](reports/screenshots/01_resumen_ejecutivo.png)
+
+### Clientes y segmentos
+
+Actividad de la cartera, principales clientes por importe neto y participación de las clases ABC históricas.
+
+![Clientes y segmentos de Cordillera Intelligence](reports/screenshots/02_clientes_y_segmentos.png)
+
+### Productos y rentabilidad
+
+Productos del catálogo y comercializados, importe neto por categoría y comparación de márgenes con la referencia global.
+
+![Productos y rentabilidad de Cordillera Intelligence](reports/screenshots/03_productos_y_rentabilidad.png)
+
+### Detalle y oportunidades
+
+Detalle por producto con importe neto, porcentaje de margen bruto estimado, margen de su categoría y brecha en puntos porcentuales.
+
+![Detalle y oportunidades de Cordillera Intelligence](reports/screenshots/04_detalle_y_oportunidades.png)
+
+Las capturas muestran todos los segmentos y el período enero de 2024 a septiembre de 2026. Los gráficos y tablas con desplazamiento muestran los registros visibles en cada captura.
+
+## Próximo hito · Caso de estudio final
+
+Consolidar las conclusiones comerciales, las propuestas de análisis y las limitaciones del proyecto, junto con la documentación para reproducir y presentar el trabajo.
