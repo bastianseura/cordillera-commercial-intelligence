@@ -1,0 +1,181 @@
+﻿producto_id,sku,nombre_producto,categoria_id,nombre_categoria,proveedor_id,unidad_venta,precio_lista_clp,costo_referencia_clp,stock_minimo,fecha_alta
+1,COR-0001,Arroz 1 kg Marca Ficticia 1,1,Abarrotes,2,unidad comercial,4400,3350,75,2024-01-01
+2,COR-0002,Fideos 400 g Marca Ficticia 1,1,Abarrotes,3,unidad comercial,2770,1850,81,2024-01-01
+3,COR-0003,Aceite 1 L Marca Ficticia 1,1,Abarrotes,1,unidad comercial,5730,3600,81,2024-01-01
+4,COR-0004,Azucar 1 kg Marca Ficticia 1,1,Abarrotes,2,unidad comercial,6280,4000,52,2024-01-01
+5,COR-0005,Harina 1 kg Marca Ficticia 1,1,Abarrotes,3,unidad comercial,4400,3100,55,2024-01-01
+6,COR-0006,Arroz 1 kg Marca Ficticia 2,1,Abarrotes,1,unidad comercial,4130,2600,40,2024-01-01
+7,COR-0007,Fideos 400 g Marca Ficticia 2,1,Abarrotes,2,unidad comercial,1680,1050,45,2024-01-01
+8,COR-0008,Aceite 1 L Marca Ficticia 2,1,Abarrotes,3,unidad comercial,2930,1850,45,2024-01-01
+9,COR-0009,Azucar 1 kg Marca Ficticia 2,1,Abarrotes,1,unidad comercial,2650,2050,69,2024-01-01
+10,COR-0010,Harina 1 kg Marca Ficticia 2,1,Abarrotes,2,unidad comercial,5020,3800,73,2024-01-01
+11,COR-0011,Arroz 1 kg Marca Ficticia 3,1,Abarrotes,3,unidad comercial,1630,1250,82,2024-01-01
+12,COR-0012,Fideos 400 g Marca Ficticia 3,1,Abarrotes,1,unidad comercial,3680,2400,86,2024-01-01
+13,COR-0013,Aceite 1 L Marca Ficticia 3,1,Abarrotes,2,unidad comercial,5480,3650,79,2024-01-01
+14,COR-0014,Azucar 1 kg Marca Ficticia 3,1,Abarrotes,3,unidad comercial,2720,1800,88,2024-01-01
+15,COR-0015,Harina 1 kg Marca Ficticia 3,1,Abarrotes,1,unidad comercial,3210,2050,58,2024-01-01
+16,COR-0016,Arroz 1 kg Marca Ficticia 4,1,Abarrotes,2,unidad comercial,1020,650,61,2024-01-01
+17,COR-0017,Fideos 400 g Marca Ficticia 4,1,Abarrotes,3,unidad comercial,5720,3650,89,2024-01-01
+18,COR-0018,Aceite 1 L Marca Ficticia 4,1,Abarrotes,1,unidad comercial,1910,1450,41,2024-01-01
+19,COR-0019,Azucar 1 kg Marca Ficticia 4,1,Abarrotes,2,unidad comercial,2800,2100,68,2024-01-01
+20,COR-0020,Harina 1 kg Marca Ficticia 4,1,Abarrotes,3,unidad comercial,870,600,71,2024-01-01
+21,COR-0021,Arroz 1 kg Marca Ficticia 5,1,Abarrotes,1,unidad comercial,2370,1650,40,2024-01-01
+22,COR-0022,Fideos 400 g Marca Ficticia 5,1,Abarrotes,2,unidad comercial,5030,3450,77,2024-01-01
+23,COR-0023,Aceite 1 L Marca Ficticia 5,1,Abarrotes,3,unidad comercial,5880,4150,79,2024-01-01
+24,COR-0024,Azucar 1 kg Marca Ficticia 5,1,Abarrotes,1,unidad comercial,5160,3900,78,2024-01-01
+25,COR-0025,Harina 1 kg Marca Ficticia 5,1,Abarrotes,2,unidad comercial,970,600,72,2024-01-01
+26,COR-0026,Arroz 1 kg Marca Ficticia 6,1,Abarrotes,3,unidad comercial,3930,2950,49,2024-01-01
+27,COR-0027,Fideos 400 g Marca Ficticia 6,1,Abarrotes,1,unidad comercial,1170,800,89,2024-01-01
+28,COR-0028,Aceite 1 L Marca Ficticia 6,1,Abarrotes,2,unidad comercial,4110,3100,36,2024-01-01
+29,COR-0029,Azucar 1 kg Marca Ficticia 6,1,Abarrotes,3,unidad comercial,3410,2300,58,2024-01-01
+30,COR-0030,Harina 1 kg Marca Ficticia 6,1,Abarrotes,1,unidad comercial,4070,2550,70,2024-01-01
+31,COR-0031,Agua 1.5 L Marca Ficticia 1,2,Bebidas,5,unidad comercial,4880,3400,63,2024-01-01
+32,COR-0032,Bebida 1.5 L Marca Ficticia 1,2,Bebidas,6,unidad comercial,4640,3500,70,2024-01-01
+33,COR-0033,Jugo 1 L Marca Ficticia 1,2,Bebidas,4,unidad comercial,4420,2800,64,2024-01-01
+34,COR-0034,Agua gas 500 ml Marca Ficticia 1,2,Bebidas,5,unidad comercial,740,550,84,2024-01-01
+35,COR-0035,Bebida isotónica 500 ml Marca Ficticia 1,2,Bebidas,6,unidad comercial,5030,3800,35,2024-01-01
+36,COR-0036,Agua 1.5 L Marca Ficticia 2,2,Bebidas,4,unidad comercial,2280,1700,68,2024-01-01
+37,COR-0037,Bebida 1.5 L Marca Ficticia 2,2,Bebidas,5,unidad comercial,3330,2550,36,2024-01-01
+38,COR-0038,Jugo 1 L Marca Ficticia 2,2,Bebidas,6,unidad comercial,1490,1150,36,2024-01-01
+39,COR-0039,Agua gas 500 ml Marca Ficticia 2,2,Bebidas,4,unidad comercial,4690,3050,87,2024-01-01
+40,COR-0040,Bebida isotónica 500 ml Marca Ficticia 2,2,Bebidas,5,unidad comercial,4440,3150,42,2024-01-01
+41,COR-0041,Agua 1.5 L Marca Ficticia 3,2,Bebidas,6,unidad comercial,2830,2150,64,2024-01-01
+42,COR-0042,Bebida 1.5 L Marca Ficticia 3,2,Bebidas,4,unidad comercial,5680,3750,76,2024-01-01
+43,COR-0043,Jugo 1 L Marca Ficticia 3,2,Bebidas,5,unidad comercial,1190,800,79,2024-01-01
+44,COR-0044,Agua gas 500 ml Marca Ficticia 3,2,Bebidas,6,unidad comercial,3690,2500,57,2024-01-01
+45,COR-0045,Bebida isotónica 500 ml Marca Ficticia 3,2,Bebidas,4,unidad comercial,3880,2550,66,2024-01-01
+46,COR-0046,Agua 1.5 L Marca Ficticia 4,2,Bebidas,5,unidad comercial,1710,1200,56,2024-01-01
+47,COR-0047,Bebida 1.5 L Marca Ficticia 4,2,Bebidas,6,unidad comercial,3850,2700,53,2024-01-01
+48,COR-0048,Jugo 1 L Marca Ficticia 4,2,Bebidas,4,unidad comercial,5910,3850,85,2024-01-01
+49,COR-0049,Agua gas 500 ml Marca Ficticia 4,2,Bebidas,5,unidad comercial,2070,1400,69,2024-01-01
+50,COR-0050,Bebida isotónica 500 ml Marca Ficticia 4,2,Bebidas,6,unidad comercial,5160,3550,85,2024-01-01
+51,COR-0051,Agua 1.5 L Marca Ficticia 5,2,Bebidas,4,unidad comercial,1140,850,51,2024-01-01
+52,COR-0052,Bebida 1.5 L Marca Ficticia 5,2,Bebidas,5,unidad comercial,2200,1500,54,2024-01-01
+53,COR-0053,Jugo 1 L Marca Ficticia 5,2,Bebidas,6,unidad comercial,5780,3650,55,2024-01-01
+54,COR-0054,Agua gas 500 ml Marca Ficticia 5,2,Bebidas,4,unidad comercial,5930,3900,78,2024-01-01
+55,COR-0055,Bebida isotónica 500 ml Marca Ficticia 5,2,Bebidas,5,unidad comercial,1000,650,67,2024-01-01
+56,COR-0056,Agua 1.5 L Marca Ficticia 6,2,Bebidas,6,unidad comercial,1540,1150,54,2024-01-01
+57,COR-0057,Bebida 1.5 L Marca Ficticia 6,2,Bebidas,4,unidad comercial,5250,3300,67,2024-01-01
+58,COR-0058,Jugo 1 L Marca Ficticia 6,2,Bebidas,5,unidad comercial,2100,1400,66,2024-01-01
+59,COR-0059,Agua gas 500 ml Marca Ficticia 6,2,Bebidas,6,unidad comercial,5890,3950,68,2024-01-01
+60,COR-0060,Bebida isotónica 500 ml Marca Ficticia 6,2,Bebidas,4,unidad comercial,1690,1300,85,2024-01-01
+61,COR-0061,Detergente 1 L Marca Ficticia 1,3,Limpieza,8,unidad comercial,5430,3900,45,2024-01-01
+62,COR-0062,Cloro 1 L Marca Ficticia 1,3,Limpieza,9,unidad comercial,3910,2750,82,2024-01-01
+63,COR-0063,Lavalozas 750 ml Marca Ficticia 1,3,Limpieza,7,unidad comercial,4020,3100,85,2024-01-01
+64,COR-0064,Limpiador 1 L Marca Ficticia 1,3,Limpieza,8,unidad comercial,1760,1150,72,2024-01-01
+65,COR-0065,Jabon 250 ml Marca Ficticia 1,3,Limpieza,9,unidad comercial,1750,1150,88,2024-01-01
+66,COR-0066,Detergente 1 L Marca Ficticia 2,3,Limpieza,7,unidad comercial,5310,3850,79,2024-01-01
+67,COR-0067,Cloro 1 L Marca Ficticia 2,3,Limpieza,8,unidad comercial,5060,3400,84,2024-01-01
+68,COR-0068,Lavalozas 750 ml Marca Ficticia 2,3,Limpieza,9,unidad comercial,1310,850,69,2024-01-01
+69,COR-0069,Limpiador 1 L Marca Ficticia 2,3,Limpieza,7,unidad comercial,1830,1350,36,2024-01-01
+70,COR-0070,Jabon 250 ml Marca Ficticia 2,3,Limpieza,8,unidad comercial,2740,1850,88,2024-01-01
+71,COR-0071,Detergente 1 L Marca Ficticia 3,3,Limpieza,9,unidad comercial,5770,3950,62,2024-01-01
+72,COR-0072,Cloro 1 L Marca Ficticia 3,3,Limpieza,7,unidad comercial,3730,2850,59,2024-01-01
+73,COR-0073,Lavalozas 750 ml Marca Ficticia 3,3,Limpieza,8,unidad comercial,5040,3700,50,2024-01-01
+74,COR-0074,Limpiador 1 L Marca Ficticia 3,3,Limpieza,9,unidad comercial,1140,700,80,2024-01-01
+75,COR-0075,Jabon 250 ml Marca Ficticia 3,3,Limpieza,7,unidad comercial,5710,4150,37,2024-01-01
+76,COR-0076,Detergente 1 L Marca Ficticia 4,3,Limpieza,8,unidad comercial,1840,1250,79,2024-01-01
+77,COR-0077,Cloro 1 L Marca Ficticia 4,3,Limpieza,9,unidad comercial,3810,2450,47,2024-01-01
+78,COR-0078,Lavalozas 750 ml Marca Ficticia 4,3,Limpieza,7,unidad comercial,5320,4100,41,2024-01-01
+79,COR-0079,Limpiador 1 L Marca Ficticia 4,3,Limpieza,8,unidad comercial,3950,2850,35,2024-01-01
+80,COR-0080,Jabon 250 ml Marca Ficticia 4,3,Limpieza,9,unidad comercial,1190,800,37,2024-01-01
+81,COR-0081,Detergente 1 L Marca Ficticia 5,3,Limpieza,7,unidad comercial,3540,2300,79,2024-01-01
+82,COR-0082,Cloro 1 L Marca Ficticia 5,3,Limpieza,8,unidad comercial,3410,2550,63,2024-01-01
+83,COR-0083,Lavalozas 750 ml Marca Ficticia 5,3,Limpieza,9,unidad comercial,2190,1600,90,2024-01-01
+84,COR-0084,Limpiador 1 L Marca Ficticia 5,3,Limpieza,7,unidad comercial,4050,2950,51,2024-01-01
+85,COR-0085,Jabon 250 ml Marca Ficticia 5,3,Limpieza,8,unidad comercial,6520,4100,53,2024-01-01
+86,COR-0086,Detergente 1 L Marca Ficticia 6,3,Limpieza,9,unidad comercial,5150,3700,41,2024-01-01
+87,COR-0087,Cloro 1 L Marca Ficticia 6,3,Limpieza,7,unidad comercial,1360,950,82,2024-01-01
+88,COR-0088,Lavalozas 750 ml Marca Ficticia 6,3,Limpieza,8,unidad comercial,3710,2800,46,2024-01-01
+89,COR-0089,Limpiador 1 L Marca Ficticia 6,3,Limpieza,9,unidad comercial,2240,1550,48,2024-01-01
+90,COR-0090,Jabon 250 ml Marca Ficticia 6,3,Limpieza,7,unidad comercial,4490,3400,39,2024-01-01
+91,COR-0091,Vasos 50 un Marca Ficticia 1,4,Desechables,11,unidad comercial,990,750,70,2024-01-01
+92,COR-0092,Servilletas 100 un Marca Ficticia 1,4,Desechables,12,unidad comercial,4690,3500,83,2024-01-01
+93,COR-0093,Bolsas 100 un Marca Ficticia 1,4,Desechables,10,unidad comercial,4760,3300,76,2024-01-01
+94,COR-0094,Envases 25 un Marca Ficticia 1,4,Desechables,11,unidad comercial,4940,3750,41,2024-01-01
+95,COR-0095,Cubiertos 50 un Marca Ficticia 1,4,Desechables,12,unidad comercial,2570,1800,64,2024-01-01
+96,COR-0096,Vasos 50 un Marca Ficticia 2,4,Desechables,10,unidad comercial,2060,1600,41,2024-01-01
+97,COR-0097,Servilletas 100 un Marca Ficticia 2,4,Desechables,11,unidad comercial,2490,1900,36,2024-01-01
+98,COR-0098,Bolsas 100 un Marca Ficticia 2,4,Desechables,12,unidad comercial,1870,1150,70,2024-01-01
+99,COR-0099,Envases 25 un Marca Ficticia 2,4,Desechables,10,unidad comercial,2020,1550,45,2024-01-01
+100,COR-0100,Cubiertos 50 un Marca Ficticia 2,4,Desechables,11,unidad comercial,2900,2150,77,2024-01-01
+101,COR-0101,Vasos 50 un Marca Ficticia 3,4,Desechables,12,unidad comercial,960,650,74,2024-01-01
+102,COR-0102,Servilletas 100 un Marca Ficticia 3,4,Desechables,10,unidad comercial,5420,3850,45,2024-01-01
+103,COR-0103,Bolsas 100 un Marca Ficticia 3,4,Desechables,11,unidad comercial,4360,3250,88,2024-01-01
+104,COR-0104,Envases 25 un Marca Ficticia 3,4,Desechables,12,unidad comercial,4350,3050,87,2024-01-01
+105,COR-0105,Cubiertos 50 un Marca Ficticia 3,4,Desechables,10,unidad comercial,4550,3100,74,2024-01-01
+106,COR-0106,Vasos 50 un Marca Ficticia 4,4,Desechables,11,unidad comercial,660,450,57,2024-01-01
+107,COR-0107,Servilletas 100 un Marca Ficticia 4,4,Desechables,12,unidad comercial,2670,1850,73,2024-01-01
+108,COR-0108,Bolsas 100 un Marca Ficticia 4,4,Desechables,10,unidad comercial,4980,3300,80,2024-01-01
+109,COR-0109,Envases 25 un Marca Ficticia 4,4,Desechables,11,unidad comercial,4140,3150,79,2024-01-01
+110,COR-0110,Cubiertos 50 un Marca Ficticia 4,4,Desechables,12,unidad comercial,3580,2750,71,2024-01-01
+111,COR-0111,Vasos 50 un Marca Ficticia 5,4,Desechables,10,unidad comercial,1870,1150,67,2024-01-01
+112,COR-0112,Servilletas 100 un Marca Ficticia 5,4,Desechables,11,unidad comercial,1370,900,51,2024-01-01
+113,COR-0113,Bolsas 100 un Marca Ficticia 5,4,Desechables,12,unidad comercial,5140,3700,89,2024-01-01
+114,COR-0114,Envases 25 un Marca Ficticia 5,4,Desechables,10,unidad comercial,1900,1400,42,2024-01-01
+115,COR-0115,Cubiertos 50 un Marca Ficticia 5,4,Desechables,11,unidad comercial,5210,3650,79,2024-01-01
+116,COR-0116,Vasos 50 un Marca Ficticia 6,4,Desechables,12,unidad comercial,3670,2700,64,2024-01-01
+117,COR-0117,Servilletas 100 un Marca Ficticia 6,4,Desechables,10,unidad comercial,4620,3500,40,2024-01-01
+118,COR-0118,Bolsas 100 un Marca Ficticia 6,4,Desechables,11,unidad comercial,1600,1200,66,2024-01-01
+119,COR-0119,Envases 25 un Marca Ficticia 6,4,Desechables,12,unidad comercial,3040,2000,70,2024-01-01
+120,COR-0120,Cubiertos 50 un Marca Ficticia 6,4,Desechables,10,unidad comercial,2030,1500,59,2024-01-01
+121,COR-0121,Galletas 150 g Marca Ficticia 1,5,Snacks,14,unidad comercial,2930,2050,37,2024-01-01
+122,COR-0122,Papas 180 g Marca Ficticia 1,5,Snacks,15,unidad comercial,5720,3850,52,2024-01-01
+123,COR-0123,Mani 200 g Marca Ficticia 1,5,Snacks,13,unidad comercial,3750,2700,79,2024-01-01
+124,COR-0124,Barra cereal 6 un Marca Ficticia 1,5,Snacks,14,unidad comercial,6430,4200,36,2024-01-01
+125,COR-0125,Chocolate 100 g Marca Ficticia 1,5,Snacks,15,unidad comercial,940,650,73,2024-01-01
+126,COR-0126,Galletas 150 g Marca Ficticia 2,5,Snacks,13,unidad comercial,4210,3200,49,2024-01-01
+127,COR-0127,Papas 180 g Marca Ficticia 2,5,Snacks,14,unidad comercial,2370,1800,77,2024-01-01
+128,COR-0128,Mani 200 g Marca Ficticia 2,5,Snacks,15,unidad comercial,4680,3200,44,2024-01-01
+129,COR-0129,Barra cereal 6 un Marca Ficticia 2,5,Snacks,13,unidad comercial,2580,1600,40,2024-01-01
+130,COR-0130,Chocolate 100 g Marca Ficticia 2,5,Snacks,14,unidad comercial,3700,2850,54,2024-01-01
+131,COR-0131,Galletas 150 g Marca Ficticia 3,5,Snacks,15,unidad comercial,2490,1700,42,2024-01-01
+132,COR-0132,Papas 180 g Marca Ficticia 3,5,Snacks,13,unidad comercial,6160,3950,45,2024-01-01
+133,COR-0133,Mani 200 g Marca Ficticia 3,5,Snacks,14,unidad comercial,6630,4100,68,2024-01-01
+134,COR-0134,Barra cereal 6 un Marca Ficticia 3,5,Snacks,15,unidad comercial,4600,2900,60,2024-01-01
+135,COR-0135,Chocolate 100 g Marca Ficticia 3,5,Snacks,13,unidad comercial,4900,3550,89,2024-01-01
+136,COR-0136,Galletas 150 g Marca Ficticia 4,5,Snacks,14,unidad comercial,1290,900,86,2024-01-01
+137,COR-0137,Papas 180 g Marca Ficticia 4,5,Snacks,15,unidad comercial,4800,2950,39,2024-01-01
+138,COR-0138,Mani 200 g Marca Ficticia 4,5,Snacks,13,unidad comercial,690,450,39,2024-01-01
+139,COR-0139,Barra cereal 6 un Marca Ficticia 4,5,Snacks,14,unidad comercial,660,450,58,2024-01-01
+140,COR-0140,Chocolate 100 g Marca Ficticia 4,5,Snacks,15,unidad comercial,5320,3750,58,2024-01-01
+141,COR-0141,Galletas 150 g Marca Ficticia 5,5,Snacks,13,unidad comercial,1800,1200,60,2024-01-01
+142,COR-0142,Papas 180 g Marca Ficticia 5,5,Snacks,14,unidad comercial,4300,3200,88,2024-01-01
+143,COR-0143,Mani 200 g Marca Ficticia 5,5,Snacks,15,unidad comercial,910,700,43,2024-01-01
+144,COR-0144,Barra cereal 6 un Marca Ficticia 5,5,Snacks,13,unidad comercial,4210,3100,58,2024-01-01
+145,COR-0145,Chocolate 100 g Marca Ficticia 5,5,Snacks,14,unidad comercial,800,550,36,2024-01-01
+146,COR-0146,Galletas 150 g Marca Ficticia 6,5,Snacks,15,unidad comercial,5430,3650,68,2024-01-01
+147,COR-0147,Papas 180 g Marca Ficticia 6,5,Snacks,13,unidad comercial,2960,2200,74,2024-01-01
+148,COR-0148,Mani 200 g Marca Ficticia 6,5,Snacks,14,unidad comercial,2400,1500,66,2024-01-01
+149,COR-0149,Barra cereal 6 un Marca Ficticia 6,5,Snacks,15,unidad comercial,1490,1000,36,2024-01-01
+150,COR-0150,Chocolate 100 g Marca Ficticia 6,5,Snacks,13,unidad comercial,4020,2650,64,2024-01-01
+151,COR-0151,Cafe 250 g Marca Ficticia 1,6,Cafeteria,17,unidad comercial,4000,2900,47,2024-01-01
+152,COR-0152,Te 100 un Marca Ficticia 1,6,Cafeteria,18,unidad comercial,990,750,54,2024-01-01
+153,COR-0153,Leche 1 L Marca Ficticia 1,6,Cafeteria,16,unidad comercial,2060,1600,78,2024-01-01
+154,COR-0154,Cacao 200 g Marca Ficticia 1,6,Cafeteria,17,unidad comercial,1880,1150,80,2024-01-01
+155,COR-0155,Endulzante 100 un Marca Ficticia 1,6,Cafeteria,18,unidad comercial,3280,2100,76,2024-01-01
+156,COR-0156,Cafe 250 g Marca Ficticia 2,6,Cafeteria,16,unidad comercial,2870,2050,41,2024-01-01
+157,COR-0157,Te 100 un Marca Ficticia 2,6,Cafeteria,17,unidad comercial,4080,2950,60,2024-01-01
+158,COR-0158,Leche 1 L Marca Ficticia 2,6,Cafeteria,18,unidad comercial,640,450,56,2024-01-01
+159,COR-0159,Cacao 200 g Marca Ficticia 2,6,Cafeteria,16,unidad comercial,2760,1800,61,2024-01-01
+160,COR-0160,Endulzante 100 un Marca Ficticia 2,6,Cafeteria,17,unidad comercial,3700,2300,48,2024-01-01
+161,COR-0161,Cafe 250 g Marca Ficticia 3,6,Cafeteria,18,unidad comercial,5930,4200,51,2024-01-01
+162,COR-0162,Te 100 un Marca Ficticia 3,6,Cafeteria,16,unidad comercial,3950,2650,51,2024-01-01
+163,COR-0163,Leche 1 L Marca Ficticia 3,6,Cafeteria,17,unidad comercial,2360,1800,71,2024-01-01
+164,COR-0164,Cacao 200 g Marca Ficticia 3,6,Cafeteria,18,unidad comercial,1700,1150,80,2024-01-01
+165,COR-0165,Endulzante 100 un Marca Ficticia 3,6,Cafeteria,16,unidad comercial,2060,1500,59,2024-01-01
+166,COR-0166,Cafe 250 g Marca Ficticia 4,6,Cafeteria,17,unidad comercial,6240,4200,78,2024-01-01
+167,COR-0167,Te 100 un Marca Ficticia 4,6,Cafeteria,18,unidad comercial,2340,1700,41,2024-01-01
+168,COR-0168,Leche 1 L Marca Ficticia 4,6,Cafeteria,16,unidad comercial,4750,3400,84,2024-01-01
+169,COR-0169,Cacao 200 g Marca Ficticia 4,6,Cafeteria,17,unidad comercial,3700,2550,59,2024-01-01
+170,COR-0170,Endulzante 100 un Marca Ficticia 4,6,Cafeteria,18,unidad comercial,4170,2550,86,2024-01-01
+171,COR-0171,Cafe 250 g Marca Ficticia 5,6,Cafeteria,16,unidad comercial,3790,2850,79,2024-01-01
+172,COR-0172,Te 100 un Marca Ficticia 5,6,Cafeteria,17,unidad comercial,3530,2300,81,2024-01-01
+173,COR-0173,Leche 1 L Marca Ficticia 5,6,Cafeteria,18,unidad comercial,3930,2850,66,2024-01-01
+174,COR-0174,Cacao 200 g Marca Ficticia 5,6,Cafeteria,16,unidad comercial,4650,3600,74,2024-01-01
+175,COR-0175,Endulzante 100 un Marca Ficticia 5,6,Cafeteria,17,unidad comercial,3000,1950,49,2024-01-01
+176,COR-0176,Cafe 250 g Marca Ficticia 6,6,Cafeteria,18,unidad comercial,1910,1300,47,2024-01-01
+177,COR-0177,Te 100 un Marca Ficticia 6,6,Cafeteria,16,unidad comercial,5190,3350,37,2024-01-01
+178,COR-0178,Leche 1 L Marca Ficticia 6,6,Cafeteria,17,unidad comercial,2570,1700,78,2024-01-01
+179,COR-0179,Cacao 200 g Marca Ficticia 6,6,Cafeteria,18,unidad comercial,910,600,78,2024-01-01
+180,COR-0180,Endulzante 100 un Marca Ficticia 6,6,Cafeteria,16,unidad comercial,1800,1150,90,2024-01-01

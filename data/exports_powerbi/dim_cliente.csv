@@ -1,0 +1,601 @@
+﻿cliente_id,razon_social,segmento,region,comuna,fecha_alta,vendedor_id,plazo_dias
+1,Almacen Ficticio Cordillera 0001,Almacen,Metropolitana,Puente Alto,2024-01-01,4,0
+2,Horeca Ficticio Cordillera 0002,Horeca,Metropolitana,Maipu,2024-01-01,11,15
+3,Almacen Ficticio Cordillera 0003,Almacen,Metropolitana,Puente Alto,2024-01-01,1,30
+4,Almacen Ficticio Cordillera 0004,Almacen,Metropolitana,Puente Alto,2024-01-01,6,30
+5,Almacen Ficticio Cordillera 0005,Almacen,Metropolitana,Santiago,2024-01-01,3,15
+6,Almacen Ficticio Cordillera 0006,Almacen,Valparaiso,Vina del Mar,2024-01-01,11,30
+7,Almacen Ficticio Cordillera 0007,Almacen,Metropolitana,Maipu,2024-01-01,12,0
+8,Almacen Ficticio Cordillera 0008,Almacen,Metropolitana,Santiago,2024-01-01,2,0
+9,Almacen Ficticio Cordillera 0009,Almacen,Metropolitana,Santiago,2024-01-01,9,30
+10,Minimarket Ficticio Cordillera 0010,Minimarket,Metropolitana,Puente Alto,2024-01-01,2,0
+11,Almacen Ficticio Cordillera 0011,Almacen,Valparaiso,Vina del Mar,2024-01-01,12,15
+12,Minimarket Ficticio Cordillera 0012,Minimarket,Metropolitana,Santiago,2024-01-01,5,30
+13,Almacen Ficticio Cordillera 0013,Almacen,O Higgins,Rancagua,2024-01-01,6,0
+14,Minimarket Ficticio Cordillera 0014,Minimarket,O Higgins,Rancagua,2024-01-01,4,30
+15,Almacen Ficticio Cordillera 0015,Almacen,Metropolitana,Santiago,2024-01-01,1,15
+16,Minimarket Ficticio Cordillera 0016,Minimarket,Metropolitana,Maipu,2024-01-01,8,15
+17,Almacen Ficticio Cordillera 0017,Almacen,Valparaiso,Valparaiso,2024-01-01,6,45
+18,Almacen Ficticio Cordillera 0018,Almacen,Metropolitana,Maipu,2024-01-01,1,30
+19,Almacen Ficticio Cordillera 0019,Almacen,Metropolitana,Santiago,2024-01-01,6,0
+20,Almacen Ficticio Cordillera 0020,Almacen,Metropolitana,Puente Alto,2024-01-01,4,30
+21,Minimarket Ficticio Cordillera 0021,Minimarket,Metropolitana,Maipu,2024-01-01,4,0
+22,Minimarket Ficticio Cordillera 0022,Minimarket,O Higgins,Rancagua,2024-01-01,7,0
+23,Almacen Ficticio Cordillera 0023,Almacen,Valparaiso,Vina del Mar,2024-01-01,9,30
+24,Horeca Ficticio Cordillera 0024,Horeca,Metropolitana,Santiago,2024-01-01,4,45
+25,Minimarket Ficticio Cordillera 0025,Minimarket,Metropolitana,Santiago,2024-01-01,8,15
+26,Almacen Ficticio Cordillera 0026,Almacen,Valparaiso,Vina del Mar,2024-01-01,1,45
+27,Horeca Ficticio Cordillera 0027,Horeca,Metropolitana,Maipu,2024-01-01,1,0
+28,Almacen Ficticio Cordillera 0028,Almacen,Metropolitana,Santiago,2024-01-01,4,30
+29,Minimarket Ficticio Cordillera 0029,Minimarket,Biobio,Concepcion,2024-01-01,12,30
+30,Almacen Ficticio Cordillera 0030,Almacen,Metropolitana,Santiago,2024-01-01,4,0
+31,Almacen Ficticio Cordillera 0031,Almacen,Metropolitana,Maipu,2024-01-01,7,30
+32,Horeca Ficticio Cordillera 0032,Horeca,Metropolitana,Puente Alto,2024-01-01,8,0
+33,Almacen Ficticio Cordillera 0033,Almacen,Valparaiso,Vina del Mar,2024-01-01,12,30
+34,Minimarket Ficticio Cordillera 0034,Minimarket,Valparaiso,Valparaiso,2024-01-01,8,30
+35,Minimarket Ficticio Cordillera 0035,Minimarket,Metropolitana,Maipu,2024-01-01,5,30
+36,Horeca Ficticio Cordillera 0036,Horeca,Valparaiso,Vina del Mar,2024-01-01,4,30
+37,Horeca Ficticio Cordillera 0037,Horeca, BIOBIO ,Concepcion,2024-01-01,3,15
+38,Minimarket Ficticio Cordillera 0038,Minimarket,Metropolitana,Santiago,2024-01-01,2,30
+39,Almacen Ficticio Cordillera 0039,Almacen,Metropolitana,Santiago,2024-01-01,4,15
+40,Minimarket Ficticio Cordillera 0040,Minimarket,Biobio,Concepcion,2024-01-01,10,0
+41,Almacen Ficticio Cordillera 0041,Almacen,Metropolitana,Puente Alto,2024-01-01,5,15
+42,Almacen Ficticio Cordillera 0042,Almacen,Maule,Talca,2024-01-01,1,0
+43,Almacen Ficticio Cordillera 0043,Almacen,Metropolitana,Puente Alto,2024-01-01,12,30
+44,Minimarket Ficticio Cordillera 0044,Minimarket,Maule,Talca,2024-01-01,6,0
+45,Almacen Ficticio Cordillera 0045,Almacen,Metropolitana,Maipu,2024-01-01,11,15
+46,Minimarket Ficticio Cordillera 0046,Minimarket,Metropolitana,Puente Alto,2024-01-01,12,30
+47,Horeca Ficticio Cordillera 0047,Horeca,Metropolitana,Maipu,2024-01-01,8,30
+48,Minimarket Ficticio Cordillera 0048,Minimarket,Metropolitana,Puente Alto,2024-01-01,7,0
+49,Almacen Ficticio Cordillera 0049,Almacen,Metropolitana,Maipu,2024-01-01,9,0
+50,Horeca Ficticio Cordillera 0050,Horeca,Metropolitana,Santiago,2024-01-01,5,15
+51,Almacen Ficticio Cordillera 0051,Almacen,Metropolitana,Santiago,2024-01-01,9,30
+52,Almacen Ficticio Cordillera 0052,Almacen,O Higgins,Rancagua,2024-01-01,7,0
+53,Almacen Ficticio Cordillera 0053,Almacen,Metropolitana,Santiago,2024-01-01,3,0
+54,Minimarket Ficticio Cordillera 0054,Minimarket,Valparaiso,Vina del Mar,2024-01-01,2,30
+55,Almacen Ficticio Cordillera 0055,Almacen,Valparaiso,Valparaiso,2024-01-01,7,30
+56,Almacen Ficticio Cordillera 0056,Almacen,Metropolitana,Santiago,2024-01-01,3,0
+57,Almacen Ficticio Cordillera 0057,Almacen,Metropolitana,Puente Alto,2024-01-01,7,30
+58,Almacen Ficticio Cordillera 0058,Almacen,Biobio,Concepcion,2024-01-01,8,0
+59,Minimarket Ficticio Cordillera 0059,Minimarket,Metropolitana,Santiago,2024-01-01,1,30
+60,Almacen Ficticio Cordillera 0060,Almacen,Metropolitana,Santiago,2024-01-01,9,30
+61,Horeca Ficticio Cordillera 0061,Horeca,Metropolitana,Puente Alto,2024-01-01,7,0
+62,Horeca Ficticio Cordillera 0062,Horeca,Valparaiso,Valparaiso,2024-01-01,10,30
+63,Almacen Ficticio Cordillera 0063,Almacen,Valparaiso,Valparaiso,2024-01-01,2,30
+64,Almacen Ficticio Cordillera 0064,Almacen,O Higgins,Rancagua,2024-01-01,5,30
+65,Horeca Ficticio Cordillera 0065,Horeca,Metropolitana,Santiago,2024-01-01,1,45
+66,Minimarket Ficticio Cordillera 0066,Minimarket,Maule,Talca,2024-01-01,6,30
+67,Almacen Ficticio Cordillera 0067,Almacen,Valparaiso,Valparaiso,2024-01-01,3,15
+68,Minimarket Ficticio Cordillera 0068,Minimarket,Valparaiso,Valparaiso,2024-01-01,8,30
+69,Almacen Ficticio Cordillera 0069,Almacen,O Higgins,Rancagua,2024-01-01,9,30
+70,Minimarket Ficticio Cordillera 0070,Minimarket,Metropolitana,Santiago,2024-01-01,12,0
+71,Horeca Ficticio Cordillera 0071,Horeca,Metropolitana,Santiago,2024-01-01,2,0
+72,Almacen Ficticio Cordillera 0072,Almacen,Metropolitana,Maipu,2024-01-01,5,45
+73,Almacen Ficticio Cordillera 0073,Almacen,Metropolitana,Santiago,2024-01-01,7,30
+74,Almacen Ficticio Cordillera 0074,Almacen, METROPOLITANA ,Santiago,2024-01-01,4,15
+75,Almacen Ficticio Cordillera 0075,Almacen,Metropolitana,Santiago,2024-01-01,12,15
+76,Almacen Ficticio Cordillera 0076,Almacen,Valparaiso,Valparaiso,2024-01-01,7,0
+77,Almacen Ficticio Cordillera 0077,Almacen,Metropolitana,Maipu,2024-01-01,4,0
+78,Horeca Ficticio Cordillera 0078,Horeca,Valparaiso,Vina del Mar,2024-01-01,10,30
+79,Almacen Ficticio Cordillera 0079,Almacen,Valparaiso,Valparaiso,2024-01-01,7,30
+80,Almacen Ficticio Cordillera 0080,Almacen,O Higgins,Rancagua,2024-01-01,1,15
+81,Horeca Ficticio Cordillera 0081,Horeca,Valparaiso,Valparaiso,2024-01-01,8,0
+82,Almacen Ficticio Cordillera 0082,Almacen,Biobio,Concepcion,2024-01-01,7,30
+83,Almacen Ficticio Cordillera 0083,Almacen,Valparaiso,Vina del Mar,2024-01-01,9,45
+84,Minimarket Ficticio Cordillera 0084,Minimarket,Maule,Talca,2024-01-01,1,30
+85,Minimarket Ficticio Cordillera 0085,Minimarket,O Higgins,Rancagua,2024-01-01,12,15
+86,Almacen Ficticio Cordillera 0086,Almacen,Metropolitana,Maipu,2024-01-01,2,0
+87,Almacen Ficticio Cordillera 0087,Almacen,Valparaiso,Valparaiso,2024-01-01,6,0
+88,Minimarket Ficticio Cordillera 0088,Minimarket,Metropolitana,Santiago,2024-01-01,9,0
+89,Horeca Ficticio Cordillera 0089,Horeca,Metropolitana,Santiago,2024-01-01,4,30
+90,Almacen Ficticio Cordillera 0090,Almacen,Valparaiso,Vina del Mar,2024-01-01,2,30
+91,Minimarket Ficticio Cordillera 0091,Minimarket,Biobio,Concepcion,2024-01-01,4,30
+92,Almacen Ficticio Cordillera 0092,Almacen,Valparaiso,Vina del Mar,2024-01-01,4,30
+93,Horeca Ficticio Cordillera 0093,Horeca,Metropolitana,Maipu,2024-01-01,11,0
+94,Almacen Ficticio Cordillera 0094,Almacen,Valparaiso,Valparaiso,2024-01-01,8,0
+95,Almacen Ficticio Cordillera 0095,Almacen,Metropolitana,Maipu,2024-01-01,7,30
+96,Horeca Ficticio Cordillera 0096,Horeca,Metropolitana,Maipu,2024-01-01,2,0
+97,Almacen Ficticio Cordillera 0097,Almacen,Valparaiso,Valparaiso,2024-01-01,9,30
+98,Almacen Ficticio Cordillera 0098,Almacen,O Higgins,Rancagua,2024-01-01,4,30
+99,Minimarket Ficticio Cordillera 0099,Minimarket,Valparaiso,Vina del Mar,2024-01-01,4,0
+100,Almacen Ficticio Cordillera 0100,Almacen,Maule,Talca,2024-01-01,9,15
+101,Almacen Ficticio Cordillera 0101,Almacen,Metropolitana,Santiago,2024-01-01,3,0
+102,Almacen Ficticio Cordillera 0102,Almacen,Valparaiso,Valparaiso,2024-01-01,6,0
+103,Minimarket Ficticio Cordillera 0103,Minimarket,Biobio,Concepcion,2024-01-01,11,45
+104,Almacen Ficticio Cordillera 0104,Almacen,Metropolitana,Santiago,2024-01-01,11,30
+105,Minimarket Ficticio Cordillera 0105,Minimarket,Valparaiso,Vina del Mar,2024-01-01,3,30
+106,Horeca Ficticio Cordillera 0106,Horeca,Metropolitana,Santiago,2024-01-01,5,30
+107,Almacen Ficticio Cordillera 0107,Almacen,Valparaiso,Valparaiso,2024-01-01,5,30
+108,Minimarket Ficticio Cordillera 0108,Minimarket,Metropolitana,Santiago,2024-01-01,9,15
+109,Minimarket Ficticio Cordillera 0109,Minimarket,Metropolitana,Puente Alto,2024-01-01,1,0
+110,Almacen Ficticio Cordillera 0110,Almacen,Metropolitana,Santiago,2024-01-01,11,0
+111,Horeca Ficticio Cordillera 0111,Horeca, O HIGGINS ,Rancagua,2024-01-01,7,0
+112,Almacen Ficticio Cordillera 0112,Almacen,O Higgins,Rancagua,2024-01-01,7,30
+113,Almacen Ficticio Cordillera 0113,Almacen,Biobio,Concepcion,2024-01-01,10,15
+114,Horeca Ficticio Cordillera 0114,Horeca,Maule,Talca,2024-01-01,1,30
+115,Minimarket Ficticio Cordillera 0115,Minimarket,Metropolitana,Puente Alto,2024-01-01,5,30
+116,Almacen Ficticio Cordillera 0116,Almacen,Metropolitana,Santiago,2024-01-01,11,0
+117,Almacen Ficticio Cordillera 0117,Almacen,Biobio,Concepcion,2024-01-01,8,30
+118,Horeca Ficticio Cordillera 0118,Horeca,O Higgins,Rancagua,2024-01-01,2,15
+119,Minimarket Ficticio Cordillera 0119,Minimarket,Metropolitana,Puente Alto,2024-01-01,5,30
+120,Horeca Ficticio Cordillera 0120,Horeca,Biobio,Concepcion,2024-01-01,8,30
+121,Almacen Ficticio Cordillera 0121,Minimarket,Metropolitana,Maipu,2024-01-01,2,30
+122,Almacen Ficticio Cordillera 0121,Almacen,Maule,Talca,2024-01-01,12,15
+123,Almacen Ficticio Cordillera 0123,Almacen,Metropolitana,Maipu,2024-01-01,8,0
+124,Almacen Ficticio Cordillera 0124,Almacen,Maule,Talca,2024-01-01,7,30
+125,Horeca Ficticio Cordillera 0125,Horeca,Metropolitana,Santiago,2024-01-01,2,0
+126,Minimarket Ficticio Cordillera 0126,Minimarket,Metropolitana,Puente Alto,2024-01-01,1,0
+127,Horeca Ficticio Cordillera 0127,Horeca,Metropolitana,Puente Alto,2024-01-01,8,45
+128,Almacen Ficticio Cordillera 0128,Almacen,Metropolitana,Puente Alto,2024-01-01,12,15
+129,Horeca Ficticio Cordillera 0129,Horeca,Biobio,Concepcion,2024-01-01,12,30
+130,Almacen Ficticio Cordillera 0130,Almacen,Metropolitana,Santiago,2024-01-01,2,15
+131,Almacen Ficticio Cordillera 0131,Almacen,Biobio,Concepcion,2024-01-01,3,30
+132,Horeca Ficticio Cordillera 0132,Horeca,O Higgins,Rancagua,2024-01-01,5,30
+133,Minimarket Ficticio Cordillera 0133,Minimarket,Valparaiso,Valparaiso,2024-01-01,6,30
+134,Horeca Ficticio Cordillera 0134,Horeca,Metropolitana,Puente Alto,2024-01-01,5,30
+135,Almacen Ficticio Cordillera 0135,Almacen,Maule,Talca,2024-01-01,2,0
+136,Minimarket Ficticio Cordillera 0136,Minimarket,Maule,Talca,2024-01-01,5,30
+137,Almacen Ficticio Cordillera 0137,Almacen,Metropolitana,Puente Alto,2024-01-01,4,45
+138,Minimarket Ficticio Cordillera 0138,Minimarket,Metropolitana,Maipu,2024-01-01,6,30
+139,Almacen Ficticio Cordillera 0139,Almacen,Metropolitana,Maipu,2024-01-01,5,30
+140,Almacen Ficticio Cordillera 0140,Almacen,Metropolitana,Maipu,2024-01-01,9,15
+141,Almacen Ficticio Cordillera 0141,Almacen,Metropolitana,Santiago,2024-01-01,2,15
+142,Almacen Ficticio Cordillera 0142,Almacen,Valparaiso,Vina del Mar,2024-01-01,3,30
+143,Almacen Ficticio Cordillera 0143,Almacen,Valparaiso,Vina del Mar,2024-01-01,8,0
+144,Almacen Ficticio Cordillera 0144,Almacen,Maule,Talca,2024-01-01,11,30
+145,Almacen Ficticio Cordillera 0145,Almacen,Valparaiso,Valparaiso,2024-01-01,7,0
+146,Minimarket Ficticio Cordillera 0146,Minimarket,O Higgins,Rancagua,2024-01-01,11,15
+147,Almacen Ficticio Cordillera 0147,Almacen,Metropolitana,Puente Alto,2024-01-01,11,15
+148,Minimarket Ficticio Cordillera 0148,Minimarket, METROPOLITANA ,Santiago,2024-01-01,8,15
+149,Minimarket Ficticio Cordillera 0149,Minimarket,Metropolitana,Maipu,2024-01-01,6,0
+150,Horeca Ficticio Cordillera 0150,Horeca,Metropolitana,Santiago,2024-01-01,1,15
+151,Almacen Ficticio Cordillera 0151,Almacen,Metropolitana,Maipu,2024-01-01,11,0
+152,Horeca Ficticio Cordillera 0152,Horeca,Metropolitana,Santiago,2024-01-01,2,15
+153,Horeca Ficticio Cordillera 0153,Horeca,Metropolitana,Santiago,2024-01-01,11,15
+154,Almacen Ficticio Cordillera 0154,Almacen,Valparaiso,Valparaiso,2024-01-01,10,0
+155,Almacen Ficticio Cordillera 0155,Almacen,Metropolitana,Puente Alto,2024-01-01,11,30
+156,Almacen Ficticio Cordillera 0156,Almacen,Valparaiso,Vina del Mar,2024-01-01,7,0
+157,Almacen Ficticio Cordillera 0157,Almacen,Biobio,Concepcion,2024-01-01,1,30
+158,Almacen Ficticio Cordillera 0158,Almacen,Metropolitana,Santiago,2024-01-01,3,0
+159,Almacen Ficticio Cordillera 0159,Almacen,Biobio,Concepcion,2024-01-01,2,30
+160,Horeca Ficticio Cordillera 0160,Horeca,Metropolitana,Puente Alto,2024-01-01,1,30
+161,Almacen Ficticio Cordillera 0161,Almacen,Biobio,Concepcion,2024-01-01,8,30
+162,Horeca Ficticio Cordillera 0162,Horeca,Metropolitana,Puente Alto,2024-01-01,2,30
+163,Almacen Ficticio Cordillera 0163,Almacen,Metropolitana,Maipu,2024-01-01,1,0
+164,Almacen Ficticio Cordillera 0164,Almacen,Biobio,Concepcion,2024-01-01,9,30
+165,Almacen Ficticio Cordillera 0165,Almacen,Biobio,Concepcion,2024-01-01,7,30
+166,Horeca Ficticio Cordillera 0166,Horeca,O Higgins,Rancagua,2024-01-01,2,45
+167,Almacen Ficticio Cordillera 0167,Almacen,Metropolitana,Maipu,2024-01-01,10,30
+168,Horeca Ficticio Cordillera 0168,Horeca,Metropolitana,Maipu,2024-01-01,10,30
+169,Almacen Ficticio Cordillera 0169,Almacen,Metropolitana,Maipu,2024-01-01,3,30
+170,Almacen Ficticio Cordillera 0170,Almacen,Valparaiso,Vina del Mar,2024-01-01,7,30
+171,Horeca Ficticio Cordillera 0171,Horeca,Biobio,Concepcion,2024-01-01,5,15
+172,Almacen Ficticio Cordillera 0172,Almacen,Metropolitana,Maipu,2024-01-01,10,0
+173,Minimarket Ficticio Cordillera 0173,Minimarket,Metropolitana,Puente Alto,2024-01-01,7,30
+174,Almacen Ficticio Cordillera 0174,Almacen,O Higgins,Rancagua,2024-01-01,11,30
+175,Horeca Ficticio Cordillera 0175,Horeca,Metropolitana,Santiago,2024-01-01,7,45
+176,Almacen Ficticio Cordillera 0176,Almacen,Metropolitana,Santiago,2024-01-01,3,15
+177,Minimarket Ficticio Cordillera 0177,Minimarket,Valparaiso,Vina del Mar,2024-01-01,11,15
+178,Almacen Ficticio Cordillera 0178,Almacen,Metropolitana,Puente Alto,2024-01-01,6,30
+179,Minimarket Ficticio Cordillera 0179,Minimarket,Metropolitana,Maipu,2024-01-01,2,15
+180,Almacen Ficticio Cordillera 0180,Almacen,Maule,Talca,2024-01-01,1,30
+181,Minimarket Ficticio Cordillera 0181,Minimarket,Metropolitana,Puente Alto,2024-01-01,6,15
+182,Almacen Ficticio Cordillera 0182,Almacen,Valparaiso,Valparaiso,2024-01-01,6,0
+183,Horeca Ficticio Cordillera 0183,Horeca,Biobio,Concepcion,2024-01-01,4,30
+184,Minimarket Ficticio Cordillera 0184,Minimarket,Metropolitana,Maipu,2024-01-01,11,30
+185,Almacen Ficticio Cordillera 0185,Almacen, O HIGGINS ,Rancagua,2024-01-01,5,45
+186,Almacen Ficticio Cordillera 0186,Almacen,Metropolitana,Maipu,2024-01-01,10,45
+187,Almacen Ficticio Cordillera 0187,Almacen,Metropolitana,Puente Alto,2024-01-01,10,30
+188,Minimarket Ficticio Cordillera 0188,Minimarket,Biobio,Concepcion,2024-01-01,7,15
+189,Minimarket Ficticio Cordillera 0189,Minimarket,Metropolitana,Maipu,2024-01-01,3,45
+190,Almacen Ficticio Cordillera 0190,Almacen,Maule,Talca,2024-01-01,6,15
+191,Horeca Ficticio Cordillera 0191,Horeca,Valparaiso,Vina del Mar,2024-01-01,5,0
+192,Horeca Ficticio Cordillera 0192,Horeca,Metropolitana,Maipu,2024-01-01,2,30
+193,Almacen Ficticio Cordillera 0193,Almacen,Metropolitana,Santiago,2024-01-01,8,0
+194,Minimarket Ficticio Cordillera 0194,Minimarket,Metropolitana,Puente Alto,2024-01-01,12,30
+195,Almacen Ficticio Cordillera 0195,Almacen,Valparaiso,Vina del Mar,2024-01-01,5,15
+196,Minimarket Ficticio Cordillera 0196,Minimarket,Metropolitana,Santiago,2024-01-01,4,45
+197,Almacen Ficticio Cordillera 0197,Almacen,Valparaiso,Vina del Mar,2024-01-01,4,0
+198,Horeca Ficticio Cordillera 0198,Horeca,Metropolitana,Puente Alto,2024-01-01,2,30
+199,Almacen Ficticio Cordillera 0199,Almacen,Metropolitana,Santiago,2024-01-01,4,30
+200,Minimarket Ficticio Cordillera 0200,Minimarket,Metropolitana,Maipu,2024-01-01,2,30
+201,Almacen Ficticio Cordillera 0201,Almacen,Valparaiso,Vina del Mar,2024-01-01,11,30
+202,Almacen Ficticio Cordillera 0202,Almacen,Metropolitana,Santiago,2024-01-01,1,0
+203,Almacen Ficticio Cordillera 0203,Almacen,Metropolitana,Santiago,2024-01-01,5,45
+204,Horeca Ficticio Cordillera 0204,Horeca,O Higgins,Rancagua,2024-01-01,8,30
+205,Minimarket Ficticio Cordillera 0205,Minimarket,Metropolitana,Santiago,2024-01-01,6,0
+206,Minimarket Ficticio Cordillera 0206,Minimarket,Metropolitana,Santiago,2024-01-01,4,0
+207,Almacen Ficticio Cordillera 0207,Almacen,Metropolitana,Maipu,2024-01-01,7,0
+208,Almacen Ficticio Cordillera 0208,Almacen,Metropolitana,Puente Alto,2024-01-01,1,0
+209,Almacen Ficticio Cordillera 0209,Almacen,Metropolitana,Santiago,2024-01-01,9,15
+210,Almacen Ficticio Cordillera 0210,Almacen,Maule,Talca,2024-01-01,5,30
+211,Almacen Ficticio Cordillera 0211,Almacen,Metropolitana,Maipu,2024-01-01,9,15
+212,Almacen Ficticio Cordillera 0212,Almacen,Valparaiso,Vina del Mar,2024-01-01,2,0
+213,Almacen Ficticio Cordillera 0213,Almacen,Valparaiso,Vina del Mar,2024-01-01,11,0
+214,Horeca Ficticio Cordillera 0214,Horeca,Metropolitana,Santiago,2024-01-01,2,15
+215,Almacen Ficticio Cordillera 0215,Almacen,Metropolitana,Maipu,2024-01-01,11,15
+216,Almacen Ficticio Cordillera 0216,Almacen,Metropolitana,Santiago,2024-01-01,2,30
+217,Almacen Ficticio Cordillera 0217,Almacen,Metropolitana,Santiago,2024-01-01,8,30
+218,Horeca Ficticio Cordillera 0218,Horeca,Valparaiso,Vina del Mar,2024-01-01,7,30
+219,Almacen Ficticio Cordillera 0219,Almacen,Metropolitana,Puente Alto,2024-01-01,9,30
+220,Minimarket Ficticio Cordillera 0220,Minimarket,Metropolitana,Puente Alto,2024-01-01,4,30
+221,Minimarket Ficticio Cordillera 0221,Minimarket,O Higgins,Rancagua,2025-04-13,1,15
+222,Horeca Ficticio Cordillera 0222,Horeca, METROPOLITANA ,Santiago,2025-11-15,7,30
+223,Almacen Ficticio Cordillera 0223,Almacen,Valparaiso,Vina del Mar,2025-08-27,1,30
+224,Horeca Ficticio Cordillera 0224,Horeca,Valparaiso,Valparaiso,2025-09-27,5,30
+225,Almacen Ficticio Cordillera 0225,Almacen,Metropolitana,Puente Alto,2024-11-17,9,30
+226,Almacen Ficticio Cordillera 0226,Almacen,Biobio,Concepcion,2024-12-03,4,15
+227,Almacen Ficticio Cordillera 0227,Almacen,Valparaiso,Valparaiso,2025-05-09,12,0
+228,Almacen Ficticio Cordillera 0228,Almacen,O Higgins,Rancagua,2025-09-29,3,30
+229,Horeca Ficticio Cordillera 0229,Horeca,Valparaiso,Vina del Mar,2024-09-21,6,45
+230,Horeca Ficticio Cordillera 0230,Horeca,Biobio,Concepcion,2024-06-02,3,30
+231,Almacen Ficticio Cordillera 0231,Almacen,Valparaiso,Vina del Mar,2025-05-08,12,0
+232,Horeca Ficticio Cordillera 0232,Horeca,Metropolitana,Santiago,2025-11-11,10,30
+233,Almacen Ficticio Cordillera 0233,Almacen,Metropolitana,Maipu,2026-01-13,12,15
+234,Minimarket Ficticio Cordillera 0234,Minimarket,Valparaiso,Vina del Mar,2024-07-29,6,0
+235,Minimarket Ficticio Cordillera 0235,Minimarket,Maule,Talca,2026-02-18,3,0
+236,Horeca Ficticio Cordillera 0236,Horeca,Valparaiso,Vina del Mar,2026-02-28,5,30
+237,Almacen Ficticio Cordillera 0237,Almacen,Valparaiso,Valparaiso,2024-02-24,6,30
+238,Almacen Ficticio Cordillera 0238,Almacen,Maule,Talca,2026-01-03,3,45
+239,Horeca Ficticio Cordillera 0239,Horeca,Biobio,Concepcion,2024-05-06,9,30
+240,Almacen Ficticio Cordillera 0240,Almacen,Metropolitana,Santiago,2024-06-27,4,0
+241,Minimarket Ficticio Cordillera 0241,Minimarket,Metropolitana,Puente Alto,2024-12-28,9,0
+242,Almacen Ficticio Cordillera 0242,Almacen,Metropolitana,Maipu,2026-04-26,2,45
+243,Almacen Ficticio Cordillera 0243,Minimarket,Biobio,Concepcion,2025-03-31,5,30
+244,Almacen Ficticio Cordillera 0243,Minimarket,O Higgins,Rancagua,2024-07-29,11,15
+245,Almacen Ficticio Cordillera 0245,Almacen,Valparaiso,Vina del Mar,2024-03-27,6,30
+246,Horeca Ficticio Cordillera 0246,Horeca,Valparaiso,Vina del Mar,2026-05-14,2,30
+247,Minimarket Ficticio Cordillera 0247,Minimarket,Valparaiso,Valparaiso,2025-04-27,4,30
+248,Almacen Ficticio Cordillera 0248,Almacen,Metropolitana,Santiago,2026-06-07,6,15
+249,Almacen Ficticio Cordillera 0249,Almacen,Valparaiso,Valparaiso,2024-07-04,2,30
+250,Horeca Ficticio Cordillera 0250,Horeca,Valparaiso,Valparaiso,2025-06-22,6,15
+251,Minimarket Ficticio Cordillera 0251,Minimarket,Metropolitana,Santiago,2024-06-12,1,45
+252,Almacen Ficticio Cordillera 0252,Almacen,Metropolitana,Maipu,2025-06-15,5,45
+253,Minimarket Ficticio Cordillera 0253,Minimarket,Metropolitana,Maipu,2025-03-03,1,30
+254,Almacen Ficticio Cordillera 0254,Almacen,Metropolitana,Santiago,2025-11-14,11,30
+255,Minimarket Ficticio Cordillera 0255,Minimarket,Metropolitana,Santiago,2026-07-18,5,0
+256,Almacen Ficticio Cordillera 0256,Almacen,Maule,Talca,2025-03-04,3,0
+257,Minimarket Ficticio Cordillera 0257,Minimarket,Valparaiso,Valparaiso,2025-10-22,5,0
+258,Minimarket Ficticio Cordillera 0258,Minimarket,Maule,Talca,2026-05-03,10,0
+259,Almacen Ficticio Cordillera 0259,Almacen, METROPOLITANA ,Maipu,2025-07-28,2,30
+260,Almacen Ficticio Cordillera 0260,Almacen,Valparaiso,Vina del Mar,2024-10-12,6,30
+261,Almacen Ficticio Cordillera 0261,Almacen,Maule,Talca,2024-08-03,4,0
+262,Almacen Ficticio Cordillera 0262,Almacen,Valparaiso,Vina del Mar,2024-04-30,2,30
+263,Horeca Ficticio Cordillera 0263,Horeca,Valparaiso,Vina del Mar,2025-01-22,2,15
+264,Almacen Ficticio Cordillera 0264,Almacen,Maule,Talca,2025-10-24,4,0
+265,Minimarket Ficticio Cordillera 0265,Minimarket,Metropolitana,Puente Alto,2025-06-06,8,15
+266,Horeca Ficticio Cordillera 0266,Horeca,Metropolitana,Santiago,2025-04-17,2,30
+267,Horeca Ficticio Cordillera 0267,Horeca,Valparaiso,Valparaiso,2025-08-07,9,30
+268,Almacen Ficticio Cordillera 0268,Almacen,Maule,Talca,2025-02-12,5,0
+269,Almacen Ficticio Cordillera 0269,Almacen,Biobio,Concepcion,2024-11-25,6,0
+270,Almacen Ficticio Cordillera 0270,Almacen,Metropolitana,Puente Alto,2024-02-12,2,30
+271,Almacen Ficticio Cordillera 0271,Almacen,Valparaiso,Vina del Mar,2024-07-12,4,30
+272,Almacen Ficticio Cordillera 0272,Almacen,Maule,Talca,2025-03-22,12,30
+273,Almacen Ficticio Cordillera 0273,Almacen,Biobio,Concepcion,2024-11-02,1,45
+274,Almacen Ficticio Cordillera 0274,Almacen,O Higgins,Rancagua,2024-01-18,12,30
+275,Almacen Ficticio Cordillera 0275,Almacen,Maule,Talca,2024-07-04,11,30
+276,Minimarket Ficticio Cordillera 0276,Minimarket,Metropolitana,Maipu,2026-04-27,4,0
+277,Almacen Ficticio Cordillera 0277,Almacen,Valparaiso,Valparaiso,2024-01-11,5,15
+278,Almacen Ficticio Cordillera 0278,Almacen,Valparaiso,Vina del Mar,2024-10-22,9,0
+279,Horeca Ficticio Cordillera 0279,Horeca,Valparaiso,Valparaiso,2025-10-26,2,30
+280,Almacen Ficticio Cordillera 0280,Almacen,Metropolitana,Maipu,2024-08-10,12,30
+281,Almacen Ficticio Cordillera 0281,Almacen,O Higgins,Rancagua,2025-06-24,12,30
+282,Almacen Ficticio Cordillera 0282,Almacen,Valparaiso,Valparaiso,2024-01-08,8,0
+283,Minimarket Ficticio Cordillera 0283,Minimarket,Metropolitana,Maipu,2024-07-19,6,0
+284,Almacen Ficticio Cordillera 0284,Almacen,Metropolitana,Santiago,2024-08-02,3,30
+285,Almacen Ficticio Cordillera 0285,Almacen,O Higgins,Rancagua,2026-06-07,11,45
+286,Almacen Ficticio Cordillera 0286,Almacen,Metropolitana,Maipu,2024-07-16,12,30
+287,Almacen Ficticio Cordillera 0287,Almacen,Valparaiso,Vina del Mar,2024-02-29,2,30
+288,Almacen Ficticio Cordillera 0288,Almacen,Valparaiso,Vina del Mar,2026-05-29,2,15
+289,Almacen Ficticio Cordillera 0289,Almacen,Metropolitana,Puente Alto,2024-02-18,7,30
+290,Almacen Ficticio Cordillera 0290,Almacen,Biobio,Concepcion,2024-11-09,9,45
+291,Horeca Ficticio Cordillera 0291,Horeca,Metropolitana,Puente Alto,2024-06-21,3,30
+292,Almacen Ficticio Cordillera 0292,Almacen,Metropolitana,Puente Alto,2024-10-23,11,15
+293,Minimarket Ficticio Cordillera 0293,Minimarket,Metropolitana,Santiago,2025-12-06,6,30
+294,Almacen Ficticio Cordillera 0294,Almacen,Valparaiso,Vina del Mar,2026-02-10,10,30
+295,Almacen Ficticio Cordillera 0295,Almacen,Maule,Talca,2024-12-16,6,0
+296,Almacen Ficticio Cordillera 0296,Almacen, METROPOLITANA ,Santiago,2024-01-22,10,45
+297,Almacen Ficticio Cordillera 0297,Almacen,Metropolitana,Santiago,2024-02-13,12,45
+298,Minimarket Ficticio Cordillera 0298,Minimarket,Metropolitana,Puente Alto,2026-05-19,10,0
+299,Almacen Ficticio Cordillera 0299,Almacen,Maule,Talca,2024-07-16,2,30
+300,Almacen Ficticio Cordillera 0300,Almacen,Maule,Talca,2024-07-18,11,30
+301,Horeca Ficticio Cordillera 0301,Horeca,Metropolitana,Santiago,2026-03-23,8,45
+302,Minimarket Ficticio Cordillera 0302,Minimarket,Biobio,Concepcion,2026-07-19,3,30
+303,Almacen Ficticio Cordillera 0303,Almacen,O Higgins,Rancagua,2025-06-05,2,30
+304,Almacen Ficticio Cordillera 0304,Almacen,Biobio,Concepcion,2024-11-19,3,15
+305,Almacen Ficticio Cordillera 0305,Almacen,Valparaiso,Vina del Mar,2025-03-29,6,30
+306,Horeca Ficticio Cordillera 0306,Horeca,Valparaiso,Valparaiso,2025-06-18,11,30
+307,Minimarket Ficticio Cordillera 0307,Minimarket,Metropolitana,Puente Alto,2024-02-24,10,0
+308,Almacen Ficticio Cordillera 0308,Almacen,Metropolitana,Santiago,2024-06-11,1,0
+309,Minimarket Ficticio Cordillera 0309,Minimarket,Metropolitana,Santiago,2026-01-15,7,15
+310,Almacen Ficticio Cordillera 0310,Almacen,Valparaiso,Valparaiso,2024-03-03,12,45
+311,Minimarket Ficticio Cordillera 0311,Minimarket,Biobio,Concepcion,2025-07-26,12,15
+312,Minimarket Ficticio Cordillera 0312,Minimarket,Valparaiso,Vina del Mar,2025-08-06,11,30
+313,Horeca Ficticio Cordillera 0313,Horeca,Metropolitana,Maipu,2024-10-18,8,30
+314,Minimarket Ficticio Cordillera 0314,Minimarket,Biobio,Concepcion,2024-03-27,7,30
+315,Minimarket Ficticio Cordillera 0315,Minimarket,Maule,Talca,2026-01-02,10,15
+316,Minimarket Ficticio Cordillera 0316,Minimarket,O Higgins,Rancagua,2026-05-24,1,15
+317,Almacen Ficticio Cordillera 0317,Almacen,Metropolitana,Santiago,2024-09-02,1,30
+318,Almacen Ficticio Cordillera 0318,Almacen,Metropolitana,Puente Alto,2024-05-02,11,30
+319,Almacen Ficticio Cordillera 0319,Almacen,Maule,Talca,2024-01-11,7,0
+320,Horeca Ficticio Cordillera 0320,Horeca,O Higgins,Rancagua,2026-02-28,12,15
+321,Minimarket Ficticio Cordillera 0321,Minimarket,Metropolitana,Puente Alto,2025-09-09,8,30
+322,Almacen Ficticio Cordillera 0322,Almacen,Biobio,Concepcion,2025-12-31,5,15
+323,Almacen Ficticio Cordillera 0323,Almacen,Metropolitana,Maipu,2024-01-26,4,15
+324,Horeca Ficticio Cordillera 0324,Horeca,O Higgins,Rancagua,2026-04-22,8,0
+325,Almacen Ficticio Cordillera 0325,Almacen,Valparaiso,Vina del Mar,2025-12-24,8,30
+326,Almacen Ficticio Cordillera 0326,Almacen,Metropolitana,Santiago,2026-03-20,2,15
+327,Horeca Ficticio Cordillera 0327,Horeca,Valparaiso,Vina del Mar,2025-12-09,3,0
+328,Almacen Ficticio Cordillera 0328,Almacen,Valparaiso,Vina del Mar,2025-01-03,12,45
+329,Almacen Ficticio Cordillera 0329,Almacen,O Higgins,Rancagua,2024-01-17,12,30
+330,Horeca Ficticio Cordillera 0330,Horeca,Biobio,Concepcion,2025-08-27,1,45
+331,Minimarket Ficticio Cordillera 0331,Minimarket,Valparaiso,Valparaiso,2024-02-26,11,0
+332,Almacen Ficticio Cordillera 0332,Almacen,Metropolitana,Puente Alto,2026-05-07,11,30
+333,Almacen Ficticio Cordillera 0333,Almacen, METROPOLITANA ,Puente Alto,2024-01-31,5,0
+334,Minimarket Ficticio Cordillera 0334,Minimarket,Metropolitana,Puente Alto,2024-10-26,7,30
+335,Almacen Ficticio Cordillera 0335,Almacen,Valparaiso,Vina del Mar,2024-02-20,2,30
+336,Almacen Ficticio Cordillera 0336,Almacen,Metropolitana,Santiago,2026-04-30,3,15
+337,Horeca Ficticio Cordillera 0337,Horeca,Metropolitana,Santiago,2024-07-25,4,30
+338,Almacen Ficticio Cordillera 0338,Almacen,Metropolitana,Santiago,2026-01-05,11,45
+339,Almacen Ficticio Cordillera 0339,Almacen,Biobio,Concepcion,2024-09-21,5,15
+340,Almacen Ficticio Cordillera 0340,Almacen,Metropolitana,Santiago,2025-02-16,10,30
+341,Horeca Ficticio Cordillera 0341,Horeca,Metropolitana,Santiago,2025-10-25,8,30
+342,Almacen Ficticio Cordillera 0342,Almacen,Metropolitana,Santiago,2024-07-25,10,0
+343,Almacen Ficticio Cordillera 0343,Almacen,Metropolitana,Santiago,2026-01-15,4,0
+344,Almacen Ficticio Cordillera 0344,Almacen,Metropolitana,Santiago,2025-11-23,6,0
+345,Horeca Ficticio Cordillera 0345,Horeca,Metropolitana,Maipu,2025-08-14,7,45
+346,Horeca Ficticio Cordillera 0346,Horeca,Valparaiso,Vina del Mar,2025-12-23,5,30
+347,Minimarket Ficticio Cordillera 0347,Minimarket,Metropolitana,Maipu,2026-06-01,9,0
+348,Almacen Ficticio Cordillera 0348,Almacen,O Higgins,Rancagua,2026-03-15,10,45
+349,Horeca Ficticio Cordillera 0349,Horeca,Metropolitana,Santiago,2025-01-20,8,30
+350,Almacen Ficticio Cordillera 0350,Almacen,Valparaiso,Valparaiso,2024-10-31,1,30
+351,Almacen Ficticio Cordillera 0351,Almacen,Valparaiso,Vina del Mar,2024-03-09,9,0
+352,Almacen Ficticio Cordillera 0352,Almacen,Metropolitana,Santiago,2025-04-18,10,45
+353,Horeca Ficticio Cordillera 0353,Horeca,Metropolitana,Santiago,2024-06-03,6,0
+354,Almacen Ficticio Cordillera 0354,Almacen,Metropolitana,Puente Alto,2024-04-20,11,45
+355,Almacen Ficticio Cordillera 0355,Almacen,Biobio,Concepcion,2026-04-15,2,15
+356,Minimarket Ficticio Cordillera 0356,Minimarket,Metropolitana,Santiago,2024-05-18,6,15
+357,Almacen Ficticio Cordillera 0357,Almacen,Valparaiso,Vina del Mar,2024-04-28,12,0
+358,Minimarket Ficticio Cordillera 0358,Minimarket,Metropolitana,Santiago,2024-06-23,7,30
+359,Minimarket Ficticio Cordillera 0359,Minimarket,Metropolitana,Santiago,2024-08-05,10,30
+360,Almacen Ficticio Cordillera 0360,Almacen,O Higgins,Rancagua,2024-02-13,9,30
+361,Almacen Ficticio Cordillera 0361,Almacen,Metropolitana,Puente Alto,2025-07-30,10,30
+362,Horeca Ficticio Cordillera 0362,Horeca,Valparaiso,Vina del Mar,2025-10-16,8,15
+363,Almacen Ficticio Cordillera 0363,Almacen,Valparaiso,Vina del Mar,2024-07-31,1,15
+364,Horeca Ficticio Cordillera 0364,Horeca,Metropolitana,Maipu,2024-01-14,9,30
+365,Almacen Ficticio Cordillera 0365,Almacen,Valparaiso,Vina del Mar,2024-05-15,1,30
+366,Almacen Ficticio Cordillera 0365,Minimarket,Biobio,Concepcion,2025-09-23,11,30
+367,Minimarket Ficticio Cordillera 0367,Minimarket,Valparaiso,Valparaiso,2025-07-17,9,45
+368,Horeca Ficticio Cordillera 0368,Horeca,Metropolitana,Santiago,2024-02-16,11,30
+369,Almacen Ficticio Cordillera 0369,Almacen,O Higgins,Rancagua,2024-12-04,4,15
+370,Minimarket Ficticio Cordillera 0370,Minimarket, METROPOLITANA ,Puente Alto,2024-02-27,12,30
+371,Almacen Ficticio Cordillera 0371,Almacen,Biobio,Concepcion,2025-04-25,8,0
+372,Minimarket Ficticio Cordillera 0372,Minimarket,Metropolitana,Santiago,2025-08-31,3,0
+373,Minimarket Ficticio Cordillera 0373,Minimarket,Metropolitana,Santiago,2026-02-14,11,30
+374,Almacen Ficticio Cordillera 0374,Almacen,Biobio,Concepcion,2024-11-22,5,30
+375,Almacen Ficticio Cordillera 0375,Almacen,Metropolitana,Santiago,2025-06-27,6,30
+376,Almacen Ficticio Cordillera 0376,Almacen,Metropolitana,Puente Alto,2024-12-01,10,30
+377,Almacen Ficticio Cordillera 0377,Almacen,Maule,Talca,2025-11-03,7,30
+378,Almacen Ficticio Cordillera 0378,Almacen,Maule,Talca,2024-08-15,2,0
+379,Almacen Ficticio Cordillera 0379,Almacen,Metropolitana,Puente Alto,2026-03-19,12,15
+380,Minimarket Ficticio Cordillera 0380,Minimarket,Valparaiso,Vina del Mar,2024-08-08,5,0
+381,Almacen Ficticio Cordillera 0381,Almacen,Metropolitana,Santiago,2025-12-10,1,0
+382,Almacen Ficticio Cordillera 0382,Almacen,Metropolitana,Santiago,2025-06-03,3,30
+383,Minimarket Ficticio Cordillera 0383,Minimarket,Valparaiso,Vina del Mar,2026-04-14,1,15
+384,Minimarket Ficticio Cordillera 0384,Minimarket,Metropolitana,Maipu,2026-01-26,2,30
+385,Minimarket Ficticio Cordillera 0385,Minimarket,Metropolitana,Maipu,2024-09-11,10,0
+386,Minimarket Ficticio Cordillera 0386,Minimarket,Maule,Talca,2025-05-20,2,15
+387,Almacen Ficticio Cordillera 0387,Almacen,Biobio,Concepcion,2026-05-11,7,15
+388,Minimarket Ficticio Cordillera 0388,Minimarket,Valparaiso,Vina del Mar,2024-08-04,10,15
+389,Almacen Ficticio Cordillera 0389,Almacen,Biobio,Concepcion,2025-08-30,2,30
+390,Almacen Ficticio Cordillera 0390,Almacen,Metropolitana,Puente Alto,2026-01-28,4,30
+391,Horeca Ficticio Cordillera 0391,Horeca,Valparaiso,Vina del Mar,2024-02-01,6,30
+392,Almacen Ficticio Cordillera 0392,Almacen,O Higgins,Rancagua,2026-07-19,12,30
+393,Horeca Ficticio Cordillera 0393,Horeca,O Higgins,Rancagua,2024-12-07,1,15
+394,Minimarket Ficticio Cordillera 0394,Minimarket,Biobio,Concepcion,2025-08-28,3,0
+395,Almacen Ficticio Cordillera 0395,Almacen,Metropolitana,Maipu,2025-01-01,6,0
+396,Almacen Ficticio Cordillera 0396,Almacen,O Higgins,Rancagua,2025-03-13,5,15
+397,Almacen Ficticio Cordillera 0397,Almacen,O Higgins,Rancagua,2025-08-11,11,0
+398,Almacen Ficticio Cordillera 0398,Almacen,Metropolitana,Puente Alto,2025-10-23,1,30
+399,Minimarket Ficticio Cordillera 0399,Minimarket,Valparaiso,Vina del Mar,2026-08-01,2,30
+400,Minimarket Ficticio Cordillera 0400,Minimarket,Metropolitana,Puente Alto,2024-02-20,5,30
+401,Minimarket Ficticio Cordillera 0401,Minimarket,Metropolitana,Santiago,2025-05-28,5,30
+402,Minimarket Ficticio Cordillera 0402,Minimarket,Metropolitana,Santiago,2026-06-14,8,0
+403,Horeca Ficticio Cordillera 0403,Horeca,Valparaiso,Valparaiso,2026-07-15,4,30
+404,Minimarket Ficticio Cordillera 0404,Minimarket,Maule,Talca,2024-02-13,12,30
+405,Almacen Ficticio Cordillera 0405,Almacen,Biobio,Concepcion,2026-07-10,4,30
+406,Minimarket Ficticio Cordillera 0406,Minimarket,Metropolitana,Santiago,2024-09-01,3,45
+407,Horeca Ficticio Cordillera 0407,Horeca, METROPOLITANA ,Maipu,2026-01-22,10,30
+408,Almacen Ficticio Cordillera 0408,Almacen,Metropolitana,Puente Alto,2025-05-09,3,30
+409,Minimarket Ficticio Cordillera 0409,Minimarket,Maule,Talca,2026-02-09,6,15
+410,Almacen Ficticio Cordillera 0410,Almacen,Biobio,Concepcion,2024-09-05,9,30
+411,Horeca Ficticio Cordillera 0411,Horeca,Valparaiso,Vina del Mar,2025-05-29,8,15
+412,Almacen Ficticio Cordillera 0412,Almacen,Maule,Talca,2025-12-06,11,15
+413,Almacen Ficticio Cordillera 0413,Almacen,O Higgins,Rancagua,2024-09-04,5,30
+414,Horeca Ficticio Cordillera 0414,Horeca,Valparaiso,Vina del Mar,2024-10-30,6,30
+415,Minimarket Ficticio Cordillera 0415,Minimarket,O Higgins,Rancagua,2025-11-01,6,15
+416,Almacen Ficticio Cordillera 0416,Almacen,Metropolitana,Puente Alto,2025-11-23,5,30
+417,Almacen Ficticio Cordillera 0417,Almacen,Biobio,Concepcion,2026-05-24,12,0
+418,Almacen Ficticio Cordillera 0418,Almacen,Valparaiso,Valparaiso,2026-01-11,11,15
+419,Horeca Ficticio Cordillera 0419,Horeca,Metropolitana,Santiago,2024-09-03,1,30
+420,Almacen Ficticio Cordillera 0420,Almacen,Valparaiso,Valparaiso,2025-05-21,6,15
+421,Almacen Ficticio Cordillera 0421,Almacen,Maule,Talca,2024-08-04,12,30
+422,Almacen Ficticio Cordillera 0422,Almacen,Metropolitana,Santiago,2025-06-30,4,30
+423,Almacen Ficticio Cordillera 0423,Almacen,Metropolitana,Puente Alto,2025-12-12,12,30
+424,Minimarket Ficticio Cordillera 0424,Minimarket,Metropolitana,Puente Alto,2024-08-03,10,15
+425,Horeca Ficticio Cordillera 0425,Horeca,Metropolitana,Santiago,2024-03-02,4,15
+426,Almacen Ficticio Cordillera 0426,Almacen,Metropolitana,Puente Alto,2026-03-27,4,30
+427,Horeca Ficticio Cordillera 0427,Horeca,Valparaiso,Valparaiso,2025-04-27,1,30
+428,Almacen Ficticio Cordillera 0428,Almacen,Metropolitana,Santiago,2026-02-11,6,0
+429,Horeca Ficticio Cordillera 0429,Horeca,Metropolitana,Maipu,2025-02-14,7,0
+430,Horeca Ficticio Cordillera 0430,Horeca,Metropolitana,Maipu,2024-09-03,4,30
+431,Almacen Ficticio Cordillera 0431,Almacen,O Higgins,Rancagua,2025-12-01,8,30
+432,Minimarket Ficticio Cordillera 0432,Minimarket,Metropolitana,Puente Alto,2024-07-08,5,0
+433,Minimarket Ficticio Cordillera 0433,Minimarket,O Higgins,Rancagua,2024-12-03,8,30
+434,Almacen Ficticio Cordillera 0434,Almacen,Metropolitana,Maipu,2026-08-12,8,15
+435,Almacen Ficticio Cordillera 0435,Almacen,Maule,Talca,2024-03-27,1,0
+436,Almacen Ficticio Cordillera 0436,Almacen,Metropolitana,Maipu,2024-06-09,6,30
+437,Horeca Ficticio Cordillera 0437,Horeca,O Higgins,Rancagua,2025-04-15,10,15
+438,Minimarket Ficticio Cordillera 0438,Minimarket,Metropolitana,Puente Alto,2024-01-24,8,30
+439,Horeca Ficticio Cordillera 0439,Horeca,Metropolitana,Santiago,2026-03-22,6,30
+440,Almacen Ficticio Cordillera 0440,Almacen,O Higgins,Rancagua,2024-01-13,12,0
+441,Almacen Ficticio Cordillera 0441,Almacen,Valparaiso,Vina del Mar,2024-01-03,5,15
+442,Minimarket Ficticio Cordillera 0442,Minimarket,Metropolitana,Puente Alto,2024-06-21,2,0
+443,Minimarket Ficticio Cordillera 0443,Minimarket,O Higgins,Rancagua,2024-05-14,11,30
+444,Minimarket Ficticio Cordillera 0444,Minimarket, METROPOLITANA ,Maipu,2024-05-06,6,0
+445,Almacen Ficticio Cordillera 0445,Almacen,Valparaiso,Vina del Mar,2025-03-02,12,15
+446,Almacen Ficticio Cordillera 0446,Almacen,Metropolitana,Maipu,2024-01-23,1,45
+447,Almacen Ficticio Cordillera 0447,Almacen,Valparaiso,Vina del Mar,2024-09-24,3,30
+448,Almacen Ficticio Cordillera 0448,Almacen,Valparaiso,Valparaiso,2025-10-14,8,30
+449,Minimarket Ficticio Cordillera 0449,Minimarket,Maule,Talca,2025-08-30,1,30
+450,Almacen Ficticio Cordillera 0450,Almacen,Metropolitana,Maipu,2025-09-10,5,15
+451,Almacen Ficticio Cordillera 0451,Almacen,Maule,Talca,2026-03-26,2,0
+452,Almacen Ficticio Cordillera 0452,Almacen,Metropolitana,Maipu,2024-01-07,4,30
+453,Horeca Ficticio Cordillera 0453,Horeca,Maule,Talca,2025-06-12,11,15
+454,Minimarket Ficticio Cordillera 0454,Minimarket,Metropolitana,Puente Alto,2024-10-11,6,0
+455,Almacen Ficticio Cordillera 0455,Almacen,Metropolitana,Maipu,2024-05-03,7,30
+456,Horeca Ficticio Cordillera 0456,Horeca,Metropolitana,Santiago,2025-02-16,4,0
+457,Horeca Ficticio Cordillera 0457,Horeca,Metropolitana,Santiago,2024-10-13,12,15
+458,Almacen Ficticio Cordillera 0458,Almacen,Metropolitana,Puente Alto,2024-02-06,10,30
+459,Almacen Ficticio Cordillera 0459,Almacen,Metropolitana,Santiago,2026-06-19,4,15
+460,Minimarket Ficticio Cordillera 0460,Minimarket,Metropolitana,Santiago,2024-03-26,9,30
+461,Minimarket Ficticio Cordillera 0461,Minimarket,Valparaiso,Vina del Mar,2026-04-04,7,45
+462,Horeca Ficticio Cordillera 0462,Horeca,Valparaiso,Vina del Mar,2024-11-05,7,15
+463,Almacen Ficticio Cordillera 0463,Almacen,Valparaiso,Vina del Mar,2024-01-23,12,0
+464,Minimarket Ficticio Cordillera 0464,Minimarket,Biobio,Concepcion,2025-11-30,1,0
+465,Almacen Ficticio Cordillera 0465,Almacen,Biobio,Concepcion,2025-06-02,2,30
+466,Almacen Ficticio Cordillera 0466,Almacen,Metropolitana,Maipu,2025-08-18,12,30
+467,Almacen Ficticio Cordillera 0467,Almacen,Valparaiso,Vina del Mar,2024-07-24,1,30
+468,Minimarket Ficticio Cordillera 0468,Minimarket,Valparaiso,Vina del Mar,2026-05-09,9,30
+469,Almacen Ficticio Cordillera 0469,Almacen,Metropolitana,Maipu,2024-09-17,3,30
+470,Almacen Ficticio Cordillera 0470,Almacen,Metropolitana,Santiago,2025-12-26,7,30
+471,Almacen Ficticio Cordillera 0471,Almacen,Metropolitana,Santiago,2026-05-20,3,0
+472,Almacen Ficticio Cordillera 0472,Almacen,Metropolitana,Santiago,2025-05-08,4,15
+473,Minimarket Ficticio Cordillera 0473,Minimarket,Maule,Talca,2026-02-01,2,30
+474,Almacen Ficticio Cordillera 0474,Almacen,Maule,Talca,2024-04-09,5,45
+475,Almacen Ficticio Cordillera 0475,Almacen,Biobio,Concepcion,2026-04-14,11,0
+476,Minimarket Ficticio Cordillera 0476,Minimarket,Metropolitana,Maipu,2025-05-25,10,30
+477,Almacen Ficticio Cordillera 0477,Almacen,Biobio,Concepcion,2025-11-10,7,30
+478,Minimarket Ficticio Cordillera 0478,Minimarket,Metropolitana,Maipu,2025-07-21,1,0
+479,Minimarket Ficticio Cordillera 0479,Minimarket,Metropolitana,Maipu,2024-04-06,2,30
+480,Almacen Ficticio Cordillera 0480,Almacen,Metropolitana,Maipu,2026-03-15,6,30
+481,Almacen Ficticio Cordillera 0481,Almacen, METROPOLITANA ,Puente Alto,2025-01-28,3,30
+482,Almacen Ficticio Cordillera 0482,Almacen,Valparaiso,Valparaiso,2024-12-09,12,30
+483,Minimarket Ficticio Cordillera 0483,Minimarket,Metropolitana,Maipu,2026-07-15,5,0
+484,Minimarket Ficticio Cordillera 0484,Minimarket,Metropolitana,Maipu,2024-10-27,5,30
+485,Almacen Ficticio Cordillera 0485,Almacen,Valparaiso,Vina del Mar,2024-08-06,12,30
+486,Almacen Ficticio Cordillera 0486,Almacen,Metropolitana,Maipu,2024-05-11,11,30
+487,Minimarket Ficticio Cordillera 0487,Minimarket,Metropolitana,Puente Alto,2026-05-01,6,15
+488,Almacen Ficticio Cordillera 0488,Almacen,Metropolitana,Puente Alto,2026-01-06,5,0
+489,Minimarket Ficticio Cordillera 0489,Minimarket,Valparaiso,Valparaiso,2025-12-18,8,15
+490,Minimarket Ficticio Cordillera 0490,Minimarket,Metropolitana,Santiago,2025-09-23,3,0
+491,Minimarket Ficticio Cordillera 0491,Minimarket,Maule,Talca,2026-01-08,1,30
+492,Almacen Ficticio Cordillera 0492,Almacen,O Higgins,Rancagua,2026-02-19,5,15
+493,Horeca Ficticio Cordillera 0493,Horeca,Valparaiso,Valparaiso,2024-12-01,2,30
+494,Almacen Ficticio Cordillera 0494,Almacen,Valparaiso,Vina del Mar,2024-11-16,2,15
+495,Almacen Ficticio Cordillera 0495,Almacen,O Higgins,Rancagua,2025-01-19,6,0
+496,Almacen Ficticio Cordillera 0496,Almacen,Valparaiso,Valparaiso,2025-05-22,4,45
+497,Almacen Ficticio Cordillera 0497,Almacen,Metropolitana,Maipu,2025-05-18,12,30
+498,Minimarket Ficticio Cordillera 0498,Minimarket,Metropolitana,Maipu,2024-02-29,12,15
+499,Minimarket Ficticio Cordillera 0499,Minimarket,Metropolitana,Maipu,2025-12-14,12,30
+500,Almacen Ficticio Cordillera 0500,Almacen,Metropolitana,Puente Alto,2025-06-10,10,30
+501,Minimarket Ficticio Cordillera 0501,Minimarket,Valparaiso,Vina del Mar,2026-01-18,12,30
+502,Almacen Ficticio Cordillera 0502,Almacen,Metropolitana,Puente Alto,2025-01-02,9,30
+503,Almacen Ficticio Cordillera 0503,Almacen,Valparaiso,Vina del Mar,2025-01-27,4,30
+504,Minimarket Ficticio Cordillera 0504,Minimarket,Metropolitana,Maipu,2026-01-08,6,30
+505,Minimarket Ficticio Cordillera 0505,Minimarket,Valparaiso,Valparaiso,2026-03-11,4,15
+506,Horeca Ficticio Cordillera 0506,Horeca,Metropolitana,Santiago,2026-03-19,1,15
+507,Minimarket Ficticio Cordillera 0507,Minimarket,Maule,Talca,2026-07-29,1,45
+508,Almacen Ficticio Cordillera 0508,Almacen,Valparaiso,Vina del Mar,2024-02-07,1,30
+509,Minimarket Ficticio Cordillera 0509,Minimarket,Biobio,Concepcion,2026-07-02,7,15
+510,Almacen Ficticio Cordillera 0510,Almacen,Metropolitana,Puente Alto,2024-05-03,4,45
+511,Almacen Ficticio Cordillera 0511,Almacen,Valparaiso,Vina del Mar,2025-10-13,2,0
+512,Almacen Ficticio Cordillera 0512,Almacen,Metropolitana,Maipu,2024-07-13,6,15
+513,Almacen Ficticio Cordillera 0513,Almacen,Metropolitana,Puente Alto,2026-06-23,9,45
+514,Horeca Ficticio Cordillera 0514,Horeca,Metropolitana,Santiago,2025-04-07,7,30
+515,Minimarket Ficticio Cordillera 0515,Minimarket,Valparaiso,Vina del Mar,2024-07-30,5,30
+516,Almacen Ficticio Cordillera 0516,Almacen,Metropolitana,Puente Alto,2024-05-16,4,15
+517,Almacen Ficticio Cordillera 0517,Almacen,Metropolitana,Santiago,2026-03-05,2,30
+518,Minimarket Ficticio Cordillera 0518,Minimarket, METROPOLITANA ,Puente Alto,2026-07-31,12,15
+519,Minimarket Ficticio Cordillera 0519,Minimarket,Biobio,Concepcion,2025-09-08,1,30
+520,Almacen Ficticio Cordillera 0520,Almacen,Valparaiso,Vina del Mar,2024-04-30,12,30
+521,Almacen Ficticio Cordillera 0521,Almacen,Metropolitana,Santiago,2026-04-22,3,15
+522,Horeca Ficticio Cordillera 0522,Horeca,Metropolitana,Santiago,2024-06-24,9,30
+523,Minimarket Ficticio Cordillera 0523,Minimarket,Valparaiso,Valparaiso,2025-07-21,2,15
+524,Minimarket Ficticio Cordillera 0524,Minimarket,O Higgins,Rancagua,2024-01-31,7,15
+525,Almacen Ficticio Cordillera 0525,Almacen,O Higgins,Rancagua,2026-07-09,7,15
+526,Almacen Ficticio Cordillera 0526,Almacen,O Higgins,Rancagua,2026-03-18,5,30
+527,Minimarket Ficticio Cordillera 0527,Minimarket,Metropolitana,Puente Alto,2024-01-11,10,45
+528,Minimarket Ficticio Cordillera 0528,Minimarket,Biobio,Concepcion,2026-05-10,3,30
+529,Almacen Ficticio Cordillera 0529,Almacen,Metropolitana,Santiago,2025-02-22,8,30
+530,Minimarket Ficticio Cordillera 0530,Minimarket,Metropolitana,Santiago,2026-06-05,1,30
+531,Horeca Ficticio Cordillera 0531,Horeca,Valparaiso,Vina del Mar,2024-04-02,11,30
+532,Horeca Ficticio Cordillera 0532,Horeca,Metropolitana,Puente Alto,2024-08-07,6,30
+533,Almacen Ficticio Cordillera 0533,Almacen,Biobio,Concepcion,2024-04-01,2,30
+534,Almacen Ficticio Cordillera 0534,Almacen,Metropolitana,Maipu,2024-10-15,2,0
+535,Minimarket Ficticio Cordillera 0535,Minimarket,Metropolitana,Santiago,2024-11-25,8,15
+536,Almacen Ficticio Cordillera 0536,Almacen,O Higgins,Rancagua,2025-01-14,2,0
+537,Almacen Ficticio Cordillera 0537,Almacen,Valparaiso,Vina del Mar,2025-10-27,9,0
+538,Horeca Ficticio Cordillera 0538,Horeca,Valparaiso,Valparaiso,2024-04-08,9,30
+539,Horeca Ficticio Cordillera 0539,Horeca,Metropolitana,Maipu,2026-05-20,8,0
+540,Minimarket Ficticio Cordillera 0540,Minimarket,Metropolitana,Puente Alto,2024-09-07,7,30
+541,Horeca Ficticio Cordillera 0541,Horeca,Metropolitana,Maipu,2025-04-01,9,30
+542,Almacen Ficticio Cordillera 0542,Almacen,Metropolitana,Santiago,2025-04-29,1,0
+543,Minimarket Ficticio Cordillera 0543,Minimarket,Valparaiso,Vina del Mar,2025-05-10,6,30
+544,Horeca Ficticio Cordillera 0544,Horeca,Metropolitana,Santiago,2024-06-24,4,45
+545,Minimarket Ficticio Cordillera 0545,Minimarket,Metropolitana,Santiago,2025-03-13,1,45
+546,Horeca Ficticio Cordillera 0546,Horeca,Metropolitana,Santiago,2025-09-30,9,45
+547,Almacen Ficticio Cordillera 0547,Almacen,Metropolitana,Puente Alto,2025-10-23,11,30
+548,Minimarket Ficticio Cordillera 0548,Minimarket,Metropolitana,Santiago,2025-01-10,12,30
+549,Almacen Ficticio Cordillera 0549,Almacen,Metropolitana,Puente Alto,2024-09-21,9,30
+550,Minimarket Ficticio Cordillera 0550,Minimarket,Maule,Talca,2025-12-20,11,0
+551,Almacen Ficticio Cordillera 0551,Almacen,Metropolitana,Santiago,2026-05-21,9,45
+552,Almacen Ficticio Cordillera 0552,Almacen,Biobio,Concepcion,2025-05-22,12,0
+553,Horeca Ficticio Cordillera 0553,Horeca,Metropolitana,Puente Alto,2025-06-18,11,0
+554,Minimarket Ficticio Cordillera 0554,Minimarket,Biobio,Concepcion,2026-05-03,1,30
+555,Almacen Ficticio Cordillera 0555,Almacen, METROPOLITANA ,Santiago,2026-07-05,6,0
+556,Almacen Ficticio Cordillera 0556,Almacen,Valparaiso,Vina del Mar,2025-02-24,1,0
+557,Horeca Ficticio Cordillera 0557,Horeca,Biobio,Concepcion,2024-08-03,8,0
+558,Minimarket Ficticio Cordillera 0558,Minimarket,Valparaiso,Valparaiso,2025-05-05,7,30
+559,Almacen Ficticio Cordillera 0559,Almacen,Metropolitana,Santiago,2025-08-22,5,15
+560,Minimarket Ficticio Cordillera 0560,Minimarket,Valparaiso,Valparaiso,2025-05-31,2,15
+561,Horeca Ficticio Cordillera 0561,Horeca,Metropolitana,Santiago,2025-06-17,4,15
+562,Minimarket Ficticio Cordillera 0562,Minimarket,Metropolitana,Santiago,2025-12-26,7,0
+563,Almacen Ficticio Cordillera 0563,Almacen,Biobio,Concepcion,2024-05-16,3,0
+564,Almacen Ficticio Cordillera 0564,Almacen,Biobio,Concepcion,2025-01-13,6,30
+565,Horeca Ficticio Cordillera 0565,Horeca,Metropolitana,Puente Alto,2025-09-25,5,30
+566,Almacen Ficticio Cordillera 0566,Almacen,Metropolitana,Maipu,2025-06-06,4,30
+567,Minimarket Ficticio Cordillera 0567,Minimarket,Metropolitana,Santiago,2024-11-22,6,30
+568,Almacen Ficticio Cordillera 0568,Almacen,Biobio,Concepcion,2024-09-05,6,15
+569,Minimarket Ficticio Cordillera 0569,Minimarket,Valparaiso,Vina del Mar,2025-02-20,7,30
+570,Almacen Ficticio Cordillera 0570,Almacen,Metropolitana,Santiago,2024-12-29,1,30
+571,Almacen Ficticio Cordillera 0571,Almacen,Metropolitana,Santiago,2026-06-13,7,15
+572,Almacen Ficticio Cordillera 0572,Almacen,Metropolitana,Maipu,2025-12-03,10,15
+573,Almacen Ficticio Cordillera 0573,Almacen,Valparaiso,Vina del Mar,2026-07-05,6,0
+574,Almacen Ficticio Cordillera 0574,Almacen,Metropolitana,Santiago,2024-03-20,3,15
+575,Almacen Ficticio Cordillera 0575,Almacen,Metropolitana,Puente Alto,2024-04-15,8,30
+576,Horeca Ficticio Cordillera 0576,Horeca,Metropolitana,Puente Alto,2026-04-24,5,15
+577,Horeca Ficticio Cordillera 0577,Horeca,Valparaiso,Vina del Mar,2025-08-13,10,0
+578,Almacen Ficticio Cordillera 0578,Almacen,Maule,Talca,2026-04-26,7,30
+579,Horeca Ficticio Cordillera 0579,Horeca,Maule,Talca,2024-10-02,11,30
+580,Minimarket Ficticio Cordillera 0580,Minimarket,Metropolitana,Maipu,2025-09-17,3,30
+581,Almacen Ficticio Cordillera 0581,Almacen,Metropolitana,Maipu,2026-06-28,12,30
+582,Almacen Ficticio Cordillera 0582,Almacen,Valparaiso,Vina del Mar,2026-01-10,9,0
+583,Almacen Ficticio Cordillera 0583,Almacen,Metropolitana,Puente Alto,2025-07-02,4,15
+584,Almacen Ficticio Cordillera 0584,Almacen,Metropolitana,Santiago,2025-01-17,7,30
+585,Minimarket Ficticio Cordillera 0585,Minimarket,O Higgins,Rancagua,2025-10-05,8,30
+586,Almacen Ficticio Cordillera 0586,Almacen,Metropolitana,Santiago,2025-03-09,6,30
+587,Minimarket Ficticio Cordillera 0587,Minimarket,Metropolitana,Maipu,2024-04-27,12,15
+588,Almacen Ficticio Cordillera 0588,Almacen,Metropolitana,Maipu,2026-07-02,2,0
+589,Almacen Ficticio Cordillera 0589,Almacen,Metropolitana,Maipu,2025-04-03,7,0
+590,Almacen Ficticio Cordillera 0590,Almacen,Valparaiso,Valparaiso,2025-04-19,12,15
+591,Almacen Ficticio Cordillera 0591,Almacen,Valparaiso,Valparaiso,2025-01-02,7,15
+592,Horeca Ficticio Cordillera 0592,Horeca, VALPARAISO ,Valparaiso,2026-07-25,8,30
+593,Minimarket Ficticio Cordillera 0593,Minimarket,Metropolitana,Santiago,2026-03-29,9,0
+594,Almacen Ficticio Cordillera 0594,Almacen,Metropolitana,Santiago,2024-10-15,8,30
+595,Almacen Ficticio Cordillera 0595,Almacen,Metropolitana,Santiago,2024-08-15,10,0
+596,Horeca Ficticio Cordillera 0596,Horeca,Metropolitana,Santiago,2026-01-11,7,30
+597,Almacen Ficticio Cordillera 0597,Almacen,O Higgins,Rancagua,2024-08-09,7,30
+598,Almacen Ficticio Cordillera 0598,Almacen,Biobio,Concepcion,2024-05-07,5,30
+599,Minimarket Ficticio Cordillera 0599,Minimarket,Metropolitana,Santiago,2026-04-19,7,0
+600,Almacen Ficticio Cordillera 0600,Almacen,Metropolitana,Maipu,2024-07-31,5,30
