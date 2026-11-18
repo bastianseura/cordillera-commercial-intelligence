@@ -1,0 +1,120 @@
+createOrReplace
+
+	ref table dim_cliente
+
+		column 'Importe histórico cliente CLP' = ```
+				
+				COALESCE(
+				    CALCULATE(
+				        SUM(fact_detalle_pedidos[importe_neto_linea_clp]),
+				        fact_detalle_pedidos[estado] = "entregado",
+				        ALLEXCEPT(dim_cliente, dim_cliente[cliente_id])
+				    ),
+				    0
+				)
+				
+				```
+			formatString: 0
+			lineageTag: d8c8cae4-542f-4bd3-94d9-50bf39525374
+			summarizeBy: sum
+
+			annotation SummarizationSetBy = Automatic
+
+		column 'Clase ABC histórica' = ```
+				
+				VAR PosicionActual =
+				    dim_cliente[Ranking histórico cliente]
+				
+				VAR AcumuladoAnterior =
+				    COALESCE(
+				        LOOKUPVALUE(
+				            dim_cliente[Participación acumulada histórica],
+				            dim_cliente[Ranking histórico cliente],
+				            PosicionActual - 1
+				        ),
+				        0
+				    )
+				
+				RETURN
+				    SWITCH(
+				        TRUE(),
+				        AcumuladoAnterior < 0.80, "A",
+				        AcumuladoAnterior < 0.95, "B",
+				        "C"
+				    )
+				
+				```
+			lineageTag: 61c3efa0-f4d2-4c3a-81da-19879312cb69
+			summarizeBy: none
+
+			annotation SummarizationSetBy = Automatic
+
+		column 'Participación acumulada histórica' = ```
+				
+				VAR PosicionActual =
+				    dim_cliente[Ranking histórico cliente]
+				
+				VAR ImporteAcumulado =
+				    SUMX(
+				        FILTER(
+				            ALL(
+				                dim_cliente[cliente_id],
+				                dim_cliente[Ranking histórico cliente],
+				                dim_cliente[Importe histórico cliente CLP]
+				            ),
+				            dim_cliente[Ranking histórico cliente] <= PosicionActual
+				        ),
+				        dim_cliente[Importe histórico cliente CLP]
+				    )
+				
+				VAR ImporteTotal =
+				    SUMX(
+				        ALL(
+				            dim_cliente[cliente_id],
+				            dim_cliente[Importe histórico cliente CLP]
+				        ),
+				        dim_cliente[Importe histórico cliente CLP]
+				    )
+				
+				RETURN
+				    DIVIDE(ImporteAcumulado, ImporteTotal)
+				
+				```
+			formatString: 0.00\ %;-0.00\ %;0.00\ %
+			lineageTag: b88a24ef-8ac5-48d3-a6bc-c07009616b12
+			summarizeBy: sum
+
+			annotation SummarizationSetBy = Automatic
+
+		column 'Ranking histórico cliente' = ```
+				
+				VAR ImporteActual =
+				    dim_cliente[Importe histórico cliente CLP]
+				VAR ClienteActual =
+				    dim_cliente[cliente_id]
+				
+				RETURN
+				    1 +
+				    COUNTROWS(
+				        FILTER(
+				            ALL(
+				                dim_cliente[cliente_id],
+				                dim_cliente[Importe histórico cliente CLP]
+				            ),
+				            dim_cliente[Importe histórico cliente CLP] > ImporteActual
+				                ||
+				            (
+				                dim_cliente[Importe histórico cliente CLP] = ImporteActual
+				                &&
+				                dim_cliente[cliente_id] < ClienteActual
+				            )
+				        )
+				    )
+				
+				```
+			formatString: 0
+			lineageTag: 6c1a09e3-1eee-485e-9181-b4da4c0610f4
+			summarizeBy: sum
+
+			annotation SummarizationSetBy = Automatic
+

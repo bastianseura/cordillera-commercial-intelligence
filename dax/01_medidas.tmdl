@@ -1,0 +1,265 @@
+createOrReplace
+
+	ref table dim_cliente
+
+		measure '% Importe clase ABC' = ```
+				
+				DIVIDE(
+				    [Importe neto entregado],
+				    CALCULATE(
+				        [Importe neto entregado],
+				        REMOVEFILTERS(dim_cliente[Clase ABC histórica])
+				    )
+				)
+				
+				```
+			lineageTag: 83889138-f29a-4f30-9730-74c77d8724eb
+
+			annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	ref table dim_producto
+
+		measure '% Margen categoría' = ```
+				
+				CALCULATE(
+				    [% Margen bruto],
+				    ALLEXCEPT(
+				        dim_producto,
+				        dim_producto[nombre_categoria]
+				    )
+				)
+				
+				```
+			formatString: 0.00\ %;-0.00\ %;0.00\ %
+			lineageTag: 3fe62fad-9b40-446f-a2f8-fac5ec33e3d0
+
+		measure '% Margen referencia global' = ```
+				
+				CALCULATE(
+				    [% Margen bruto],
+				    REMOVEFILTERS(dim_producto[nombre_categoria])
+				)
+				
+				```
+			lineageTag: 5aeb5abf-1863-45e7-95c6-4a900fd6b047
+
+			annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+		measure 'Brecha margen pp' = ```
+				
+				IF(
+				    ISINSCOPE(dim_producto[nombre_producto]),
+				    (
+				        [% Margen bruto] -
+				        [% Margen categoría]
+				    ) * 100,
+				    BLANK()
+				)
+				
+				```
+			lineageTag: 0fa6b502-da04-4295-9270-82a98dc1508d
+
+			annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+		measure 'Productos catálogo' = ```
+				
+				COUNTROWS(dim_producto)
+				
+				```
+			formatString: 0
+			lineageTag: 8163a31b-c5d1-4945-9547-a3d21b025920
+
+		measure 'Productos comercializados' = ```
+				
+				CALCULATE(
+				    DISTINCTCOUNT(fact_detalle_pedidos[producto_id]),
+				    fact_detalle_pedidos[estado] = "entregado"
+				)
+				
+				```
+			formatString: 0
+			lineageTag: a4c15cdd-6d32-4a6c-bd68-66c5779814a4
+
+	ref table fact_detalle_pedidos
+
+		measure '% Cartera activa' = ```
+				
+				DIVIDE(
+				    [Clientes activos],
+				    [Clientes registrados]
+				)
+				
+				```
+			lineageTag: a28d3b31-e720-400a-a3d0-9c5df4fd0ac9
+
+			annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+		measure '% Margen bruto' = DIVIDE( [Margen bruto estimado] , [Importe neto entregado])
+			formatString: 0.00\ %;-0.00\ %;0.00\ %
+			lineageTag: f98320c3-6430-4dc2-97a7-5fe93d44fa20
+
+		measure '% Variación interanual' = ```
+				
+				DIVIDE(
+				    [Variación interanual CLP],
+				    [Importe neto año anterior]
+				)
+				
+				```
+			formatString: 0.00\ %;-0.00\ %;0.00\ %
+			lineageTag: c986087a-02e7-4985-99ba-28d13d8d581d
+
+		measure '% Variación mensual' = ```
+				
+				DIVIDE(
+				    [Variación mensual CLP],
+				    [Importe neto mes anterior]
+				)
+				
+				```
+			formatString: 0.00\ %;-0.00\ %;0.00\ %
+			lineageTag: 1977e961-54f2-469a-b493-025437ec8565
+
+		measure 'Clientes activos' = ```
+				
+				CALCULATE(
+				    DISTINCTCOUNT(fact_detalle_pedidos[cliente_id]),
+				    fact_detalle_pedidos[estado] = "entregado"
+				)
+				
+				```
+			formatString: 0
+			lineageTag: 03cb35e9-632a-4bd6-8313-1a71d31ae7fd
+
+		measure 'Clientes registrados' = ```
+				
+				COUNTROWS(dim_cliente)
+				
+				```
+			formatString: 0
+			lineageTag: 49deffaa-5384-4bd1-a549-889f44fa62b2
+
+		measure 'Costo entregado' = ```
+				
+				CALCULATE(
+				    SUM(fact_detalle_pedidos[costo_linea_clp]),
+				    fact_detalle_pedidos[estado] = "entregado"
+				)
+				
+				```
+			formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
+			lineageTag: 15f57226-c5be-4796-a9e7-09024ab64f39
+
+		measure 'Importe medio por cliente activo' = ```
+				
+				DIVIDE(
+				    [Importe neto entregado],
+				    [Clientes activos]
+				)
+				
+				```
+			lineageTag: 0d1f6fa4-f10d-4f60-96f3-f9435978b906
+
+			annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+		measure 'Importe neto año anterior' = ```
+				
+				CALCULATE(
+				    [Importe neto entregado],
+				    SAMEPERIODLASTYEAR(dim_fecha[fecha])
+				)
+				
+				```
+			formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
+			lineageTag: 21be8341-2d38-41ef-867b-91a363525317
+
+		measure 'Importe neto entregado' = CALCULATE(SUM(fact_detalle_pedidos[importe_neto_linea_clp]), fact_detalle_pedidos[estado] = "entregado")
+			formatString: \$#,0;\$-#,0;\$#,0
+			lineageTag: ed861845-508f-48ea-a395-b39cc5a135cc
+
+			annotation PBI_FormatHint = {"currencyCulture":"es-CL"}
+
+		measure 'Importe neto mes anterior' =
+				CALCULATE(
+				    [Importe neto entregado],
+				    DATEADD(dim_fecha[fecha], -1, MONTH)
+				)
+			formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
+			lineageTag: 0ebb752d-0810-47ee-944e-48a81ffa5eae
+
+		measure 'Margen bruto estimado' = [Importe neto entregado] - [Costo entregado]
+			formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
+			lineageTag: 709a1b1b-09d6-445a-9d2a-893994321e41
+
+		measure 'Pedidos entregados' = CALCULATE(DISTINCTCOUNT(fact_detalle_pedidos[pedido_id]), fact_detalle_pedidos[estado] = "entregado")
+			formatString: #,0
+			lineageTag: be93715e-4b8c-4ceb-a15a-c2546ff8a1f3
+
+			annotation PBI_FormatHint = {"isDecimal":true}
+
+		measure 'Promedio móvil 3M' = ```
+				
+				VAR MesActual =
+				    MAX(dim_fecha[mes_inicio])
+				
+				VAR Ultimos3Meses =
+				    CALCULATETABLE(
+				        VALUES(dim_fecha[mes_inicio]),
+				        REMOVEFILTERS(dim_fecha),
+				        dim_fecha[mes_inicio] >= EDATE(MesActual, -2),
+				        dim_fecha[mes_inicio] <= MesActual
+				    )
+				
+				RETURN
+				IF(
+				    ISINSCOPE(dim_fecha[mes_inicio])
+				        && COUNTROWS(Ultimos3Meses) = 3,
+				
+				    AVERAGEX(
+				        Ultimos3Meses,
+				        VAR MesEvaluado = dim_fecha[mes_inicio]
+				        RETURN
+				            CALCULATE(
+				                [Importe neto entregado],
+				                REMOVEFILTERS(dim_fecha),
+				                dim_fecha[mes_inicio] = MesEvaluado
+				            )
+				    )
+				)
+				
+				```
+			formatString: \$#,0.00;(\$#,0.00);\$#,0.00
+			lineageTag: 2560a724-504f-42c3-aca1-ec8e067cca27
+
+			annotation PBI_FormatHint = {"currencyCulture":"es-US"}
+
+		measure 'Variación interanual CLP' = ```
+				
+				VAR ImporteActual = [Importe neto entregado]
+				VAR ImporteAnterior = [Importe neto año anterior]
+				RETURN
+				    IF(
+				        ISBLANK(ImporteAnterior),
+				        BLANK(),
+				        ImporteActual - ImporteAnterior
+				    )
+				
+				```
+			formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
+			lineageTag: 48db217c-e3d1-4559-a61a-4eb6f7a9f2e2
+
+		measure 'Variación mensual CLP' = ```
+				
+				VAR ImporteActual = [Importe neto entregado]
+				VAR ImporteAnterior = [Importe neto mes anterior]
+				RETURN
+				    IF(
+				        ISBLANK(ImporteAnterior),
+				        BLANK(),
+				        ImporteActual - ImporteAnterior
+				    )
+				
+				```
+			formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
+			lineageTag: 20fa3a96-79bc-420b-b75b-ccb75ab104ae
+
